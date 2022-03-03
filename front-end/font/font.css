@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'bioRhyme-regular';
+    src: url('BioRhyme-Regular.ttf');
+}
+@font-face{
+    font-family:'Dekko-regular' ;
+    src: url('Dekko-Regular.ttf');
+}
+@font-face{
+    font-family:'IMFeGreatPrimer-regular' ;
+    src: url('IMFellGreatPrimer-Regular.ttf');
+}
+@font-face{
+    font-family:'Kavivanar-regular' ;
+    src: url(Kavivanar-Regular.ttf);
+}
+@font-face{
+    font-family:'KellySlab-regular' ;
+    src: url('KellySlab-Regular.ttf');
+}
+@font-face{
+    font-family:'Lemonada-variable-font' ;
+    src: url('Lemonada-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family:'Literata-variable-font' ;
+    src: url('Literata-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family:'Mada' ;
+    src: url('Mada-Regular.ttf');
+}
+@font-face{
+    font-family:'Marmelad-regular' ;
+    src: url('Marmelad-Regular.ttf');
+}
+@font-face{
+    font-family:'VolkomSC-bold' ;
+    src: url('vollkornSC-Bold.ttf');
+}
+@font-face{
+    font-family:'VolkomSC-semibold' ;
+    src: url(VollkornSC-SemiBold.ttf);
+}
