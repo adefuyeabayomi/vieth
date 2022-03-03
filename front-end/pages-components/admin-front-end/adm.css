@@ -14,26 +14,3 @@
 .adm_home_section .row div:hover{
     cursor: pointer;
 }
-.clientAdm{
-    margin: 5px !important;
-    padding: 5px;
-    border-radius: 5px;
-    width: 60%;
-    background-color: #b089ff;
-    float : left;
-}
-.adminAdm{
-    margin: 5px !important;
-    padding: 5px;
-    border-radius: 5px;
-    width: 60%;
-    background-color: rgb(255, 217, 122);
-    float: right;
-}
-.transaction-container{
-    width: 50%;
-    margin: 10px auto;
-}
-#client_view_box,#clientViewContainer,#transaction_box,#transaction_stats,#wallet-balance-box{
-    text-align: center;
-}
