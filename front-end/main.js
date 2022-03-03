@@ -35,9 +35,9 @@ import transactionHistory from "./pages-components/transactions/t-his.js";
 //access
 import login from "./pages-components/access-pages/login.js";
 import signup from "./pages-components/access-pages/sign-up.js";
-import fp from "./pages-components/access-pages/fp-enter-email.js";
+import fp from "./pages-components/access-pages/fp.js";
 //user-account
-import userAccount from "./pages-components/user-account/myaccount.js";
+import userAccount from "./pages-components/user-account/account-settings.js";
 //feedback-chat
 import feedBackChat from "./pages-components/feedback-chat/chat-page.js";
 //adm-front-end
@@ -69,7 +69,7 @@ Vue.component("pay-for-cable-tv",payForCableTv);
 Vue.component("pay-for-electricity",PayForElectricity);
 Vue.component("fund-wallet",fundWallet);
 Vue.component("buy-smile-data",buySmileData);
-Vue.component("print-recharge-card",printRechargeCard);
+Vue.component("print-recharge-card",printRechargeCard)
 Vue.component("transaction-success",transactionSuccess);
 Vue.component("transaction-error",transactionError);
 //transaction history
@@ -81,7 +81,7 @@ Vue.component("fp",fp);
 //feedbackChat
 Vue.component("feedback-chat",feedBackChat);
 //user-account
-Vue.component("my-account",userAccount); 
+Vue.component("account-settings",userAccount); 
 //adm
 Vue.component("adm-home", admHome);
 Vue.component("adm-access",admAccess);
@@ -90,19 +90,14 @@ let app = new Vue({
     el : "#app",
     data : {
         mobileNavOpen : false,
-        page : "homepage",
-        transactionState : {
-            prevTransactionRequestURL : "" ,
-            msg : "",
-            status : "",
-            responseObj : {}
+        currentPage : "homepage",
+        transactionObject : {
+            prevTransactionRequestURL : "http://localhost" ,
+            msg : "none",
+            status : "none",
+            responseObj : {lol: "lol"}
 
         },
-        userEmail: "",
-        userPassword : "",
-        userLoginType : "",
-        walletBalance : "",
-        transactionHistory : [],
         navState : {  
             home: true,
             account : false,
@@ -112,84 +107,144 @@ let app = new Vue({
             prices : false,
             feedback : false,
             logged: false,
-        },
-        hamState : {
-            state : "ham",
-            tttc : false,
-            tmtc : false,
-            tbtc : false,
-            ttbth : false,
-            tmbth : false,
-            tbbth : false,
-        },
-        loginState : {
-            requestSent : false,
-            responseRecieved : false,
-            networkError : false,
-            passwordWrong : false,
-
-        },
-        signUpState : {
-
-        },
-        paymentState : {
-            
         }
+        
     },
     methods : {
-        updateHamState : function(){
-            if(this.hamState.state == "ham"){
-                 this.hamState.tttc = true;
-                this.hamState.tmtc = true;
-                this.hamState.tbtc = true;
-                this.hamState.ttbth = false,
-                this.hamState.tmbth = false,
-                this.hamState.tbbth = false,
-                this.hamState.state = "close";
-                
-            }
-            else {
-                 this.hamState.tttc = false;
-                this.hamState.tmtc = false;
-                this.hamState.tbtc = false;
-                this.hamState.ttbth = true;
-                this.hamState.tmbth = true;
-                this.hamState.tbbth = true;     
-                this.hamState.state = "ham";
-            }
+        respond : function(){
+            alert("got-that! viola!")
+        },
+        changePage : function (value){
+            this.curP = value;
         },
         updateNavState : function (){
+            if( window.innerWidth < 768 ){
                 let currentNavState = this.mobileNavOpen;
                 this.mobileNavState = !currentNavState;
-                console.log('successfully updated the nav state', this.mobileNavState ? "mobile nav is open"  : "mobile nav is closed");
-        },
-        closeNav : function () {
-            this.mobileNavState = false;
-            if(this.hamState.state == "close"){
-               this.updateHamState();
+                console.log('successfully updated the nav state', this.mobileNavState);
             }
-            
-            console.log("closed navigation successfully");
         },
-        formatNavState(){
-            this.navState.home = false;
-            this.navState.account = false;
-            this.navState.login = false;
-            this.navState.fundwallet = false;
-            this.navState.history = false;
-            this.navState.prices = false;
-            this.navState.feedback = false;
-        }
+        switchToHome : function (){
+            this.updateNavState();
+            if(this.currentPage !== "homepage"){
+                this.curP = "homepage";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToMyAccount : function(){
+            this.updateNavState();
+            if(this.currentPage !== "account-settings"){
+                this.curP = "account-settings";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToTransactionHistory : function (){
+            this.updateNavState();
+            if(this.currentPage !== "transaction-history"){
+                this.curP = "transaction-history";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToFundWallet : function (){
+            this.updateNavState();
+            if(this.currentPage !== "fund-wallet"){
+                this.curP = "fund-wallet";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToLogin : function (){
+            this.updateNavState();
+            if(this.currentPage !== "login"){
+                this.curP = "login";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToSignUp : function (){
+            if(this.currentPage !== "signup"){
+                this.curP = "signup";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToFP : function (){
+            if(this.currentPage !== "fp"){
+                this.curP = "fp";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToBuyData : function (){
+            if(this.currentPage !== "buy-data"){
+                this.curP = "buy-data";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToBuyAirtime : function (){
+            if(this.currentPage !== "buy-airtime"){
+                this.curP = "buy-airtime";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToPayForCableTv : function (){
+            if(this.currentPage !== "pay-for-cable-tv"){
+                this.curP = "pay-for-cable-tv";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToPayForElectricity : function (){
+            if(this.currentPage !== "pay-for-electricity"){
+                this.curP = "pay-for-electricity";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToBuySmileData : function (){
+            if(this.currentPage !== "buy-smile-data"){
+                this.curP = "buy-smile-data";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToPrintRechargeCard : function (){
+            if(this.currentPage !== "print-recharge-card"){
+                this.curP = "print-recharge-card";
+                console.log("switched page to", this.curP);                
+            }
+        },
+
+        switchAdmAccess : function (){
+            if(this.currentPage !== "login"){
+                this.curP = "login";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToAdmHome : function (){
+            if(this.currentPage !== "login"){
+                this.curP = "login";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToTransactionSuccess : function (){
+            if(this.currentPage !== "transaction-success"){
+                this.curP = "transaction-success";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        switchToTransactionError : function (){
+            if(this.currentPage !== "transaction-error"){
+                this.curP = "transaction-error";
+                console.log("switched page to", this.curP);                
+            }
+        },
+        
     },
     computed : {
-        currentPage: {
+        curP: {
             get : function (){
-                this.closeNav();
-                return this.page;
-                },
+                return this.currentPage;
+            },
             set : function (newPage){
-                this.page = newPage;
+                this.currentPage = newPage;
             }
+        },
+        dD : function (){
+            return airtimeDis;
         },
         mobileNavState : {
             get : function(){
@@ -199,78 +254,14 @@ let app = new Vue({
             set : function(newValue){
                 this.mobileNavOpen = newValue; 
             }
-        },
+        }   
      }
 });
-
-window.addEventListener("hashchange",()=>{
-    console.log("hash changed, new page is ",window.location.hash.split("#")[1])
-    if(app.mobileNavState){
-        app.closeNav();
-    }
-    let page = window.location.hash.split("#")[1];
-    if(page == "home" || page =="pricing_section" || page == "customer-care-section"){
-        app.currentPage = "homepage";
-        if(page=="pricing_section"){
-            setTimeout(()=>{
-                scrollPricingToView();
-                console.log("pricing section scroll To View Fired")
-            },200)
-        }
-        else if(page == "customer-care-section"){
-            setTimeout(()=>{
-                scrollCustomerAreaToView();
-                console.log("customer area scroll To View Fired")
-            },200)
-        }
-    }
-    else app.currentPage = page;
-    app.formatNavState();
-    if ( page !== "customer-care-section" && page !== "home" && page !== "pricing_section"  ){
-        setTimeout(()=>{
-            scrollPageComponentToTop();
-            console.log("Page Component Scrolled to top");
-        },200)
-    }
-    if(page == "home"){
-        app.navState.home=true;
-    }
-    if(page == "pricing_section"){
-        app.navState.prices = true;
-    }
-    if(page == "customer-care-section"){
-        app.navState.feedback = true;
-    }
-    if(page == "login"){
-        app.navState.login = true;
-    }
-    if(page == "fund-wallet"){
-        app.navState.fundwallet = true;
-    }
-    if(page == "transaction-history"){
-        app.navState.history = true;
-    }
-    if(page == "account-settings"){
-        app.navState.account = true;
-    }
-
-})
-function scrollPageComponentToTop(){
-    let element =document.getElementById("otherFC");
-    element.scrollIntoView(true);
-}
-function scrollPricingToView(){
-    let element = document.getElementById("pricing_section");
-    element.scrollIntoView(true);
-}
-function scrollCustomerAreaToView(){
-    let element = document.getElementById("customer-care-section")
-    element.scrollIntoView(true);
-}
-
-function loginRequest(email,type,password){
-    let request = new XMLHttpRequest();
-    let url = `http://localhost/login?email=${email}&type=read&loginType="${loginType}"&password=${password}`;
-    request.open("GET",url);
-    // response is the whole users data.
-}
+function returnpage (){
+    let route = String(window.location);
+      
+    if(window.location == "/"){
+      return "homepage";
+    }else {
+      return route.split("#")[1];  
+    } }
