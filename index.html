@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <!--title bar-->
+        <title>title here</title>
+        <!--character encoding-->
+        <meta charset="utf-8">
+        <meta lang="en-us">
+        <!--declare other relevant meta description here-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="" content="">
+        <meta http-equiv="" content="">
+        <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+        <!--add a favicon-->
+        <link rel="shortcut icon" type="images/x-icons" href="">
+        <!--Adding CSS-->
+        <link rel="stylesheet" type="text/css" href="base.css">
+        <!--bootstrap grid
+
+        <link rel="stylesheet" type="text/css" href="./bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/css/bootstrap-grid.css">
+        -->
+        <!--yologrid-->
+        <link rel="stylesheet" type="text/css" href="./animate.css/animate.css">
+        <link rel="stylesheet" type="text/css" href="yologrid/yologrid.css">
+        <!--semantic ui-->
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/Semantic-UI-CSS-master/semantic.css">
+        <!--motion ui-->
+        <link rel="stylesheet" type="text/css" href="./motion-ui-starter/motion-ui-starter/css/motion-ui.css">
+        <!--fontawesome-->
+        <link rel="stylesheet" type="text/css" href="./fontawesome-free-5.15.3-web/css/all.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="h-m-content fix top_bar_container order3">
+                <mobile-top-bar v-bind:ham-state="hamState" v-on:update-ham-state="updateHamState()" v-on:update-nav-state="updateNavState()"></mobile-top-bar>
+            </div>
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+            <!--<div style="height: 55px;"></div>-->
+            
+            <mobile-nav v-on:close-nav="closeNav()" v-if="mobileNavState" v-bind:navigation-state="navState"></mobile-nav>
+            
+            <div id="other" v-if="!mobileNavState">
+                <div id="otherFC" class="container vh-full">
+                    <div class="row" id="main_row">
+                        <desktop-sidebar-navigation v-bind:navigation-state="navState"></desktop-sidebar-navigation>
+                        <content-area v-bind:transaction-state="transactionState" v-bind:login-state="loginState" v-bind:page="currentPage"></content-area>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </body>
+    <!--import all cdn js here-->
+    <!--import our js file here-->
+    <!--358341489199000 app id facebook-->
+    <script src="main.js" type="module"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '358341489199000',
+        cookie     : true,
+        xfbml      : true,
+        version    : 'v11.0'
+      });
+        
+      FB.AppEvents.logPageView();   
+        
+    };
+  
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <script>
+      function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+
+  </script>
+<!--
+<a href="#" onclick="signOut();">Sign out</a>
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
+
+
+-->
+</html>

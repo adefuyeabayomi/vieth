@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>title</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="">
+        <meta name="viewport" content="initial-scale=1,shrink-to-fit=no">
+    </head>
+    <body>  
+        <!--main-->
+        <div id="account_settings_section">
+            <div><p><span class="fas fa-user-alt"></span>User Account Settings</p> </div>
+            <div class="EmailContainer">
+                <p><span class="fas fa-account"></span> {{email}}</p>
+                <p>Change Email : <input v-model="changeEmail" type="text"></p>
+                <div class="submit_container">
+                    <button>Change Email</button>
+                </div>
+            </div>
+            <div class="changePasContainer">
+                <p v-if="noPasswordSet"></p>
+                <p><span class="fas fa-key"></span> Password</p>
+                <p>Change Password :<input type="text" v-model="newPassword"></p>
+                <div class="submit_container">
+                    <button>Change password</button>
+                </div>
+            </div>
+        </div>
+        <!--main-->
+    </body>
+</html> 
