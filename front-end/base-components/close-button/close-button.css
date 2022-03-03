@@ -1,0 +1,32 @@
+#close_grouping{
+    width: max-content;
+    padding: 8px 10px 8px 10px;
+    height: max-content;
+    border-radius: 5px;
+}
+[class~="close_bg"]{
+    background-color:rgb(255, 205, 127);
+}
+#bar_group{
+    float: right;
+padding-top: 9px;
+padding-left: 1px;
+}
+#close_bar_one{
+    width : 15px;
+    height: 2px;
+    border-radius: 20px;
+    transform: rotate(45deg);
+    position : relative;
+    top: 1px;
+    background-color:#e22020;
+}
+#close_bar_two{
+    width : 15px;
+    height: 2px;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+    position : relative;
+    bottom: 1px;
+    background-color: #e22020;
+}

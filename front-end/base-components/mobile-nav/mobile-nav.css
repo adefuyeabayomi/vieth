@@ -1,0 +1,32 @@
+#mobile_nav_container{
+    height : max-content;
+}
+.close_button_wrapper{
+    width: max-content;
+    margin: 2% 0% 1% 77%;
+}
+@media (min-width: 300px){
+    .close_button_wrapper{
+        margin: 2% 0% 1% 78%;
+    }
+}
+@media (min-width: 410px){
+    .close_button_wrapper{
+        margin: 2% 0% 1% 81%;
+    }
+}
+@media (min-width: 520px){
+    .close_button_wrapper{
+        margin: 2% 0% 1% 84%;
+    }
+}
+@media (min-width: 650px){
+    .close_button_wrapper{
+        margin: 2% 0% 1% 88%;
+    }
+}
+@media (min-width: 768px){
+    #mobile_nav_container{
+        display : none;
+    }
+}

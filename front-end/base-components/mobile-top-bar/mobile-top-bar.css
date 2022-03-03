@@ -1,0 +1,99 @@
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+#logo_text{
+    font-size: 140%;
+    font-weight: bold;
+    width: max-content;
+    height: max-content;
+    color: #ff7502;
+}
+#utils{
+    padding-top: 10px;
+    width: max-content;
+    float : right;
+}
+#utils a {
+    cursor: pointer;
+    color : #8282e9;
+}
+#utils a:hover{
+    color : #f8d799;
+}
+[class~="phone-icon"]{
+    font-size: 22px;
+    color : #8282e9;   
+}
+.phone_no{
+    display: none;
+}
+
+.chat_with_admin{
+    display: none;
+}   
+.whatsapp_no{
+    display: none;
+}
+[class~="whatsapp-icon"]{
+    font-size: 22px;
+    color : #3ad43a;
+}
+
+[class~="comment-alt-icon"]{
+    font-size: 20px;
+    color : #ffae79;
+}
+a{
+    padding: 3px;
+}
+@media (min-width: 480px){
+    [class~="phone-icon"]{
+        font-size: 26px;
+    }
+    
+    [class~="whatsapp-icon"]{
+        font-size: 26px;
+    }
+    
+    [class~="comment-alt-icon"]{
+        font-size: 24px;
+    }
+    a {
+        padding : 3px 5px;
+    }
+    .phone_no{
+        display: inline;
+        padding-left: 3px;
+        font-weight: 600;
+        position: relative;
+        bottom: 4px;
+    }
+    #utils{
+        padding: 7px;
+    }
+}
+
+@media (min-width: 768px){
+    #hamburger_box{
+        display: none;
+    }
+    .chat_with_admin{
+        display: inline;
+        padding-left: 3px;
+        font-weight: 600;
+        position: relative;
+        bottom: 4px;
+    }   
+    .whatsapp_no{
+        display: inline;
+        padding-left: 3px;
+        font-weight: 600;
+        position: relative;
+        bottom: 4px;
+    }
+    a {
+        padding : 3px 10px;
+    }
+}

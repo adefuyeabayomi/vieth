@@ -1,0 +1,15 @@
+#content_area_section{
+    flex : 1;
+    border-left: 1px solid gray;
+    box-shadow: -1px 1px 4px gray;
+}
+@media (min-width: 996px){
+    #content_area_section{
+        flex : 9;
+    }
+}
+@media (max-width: 767px){
+    #content_area_section{
+        overflow: unset;
+    }
+}

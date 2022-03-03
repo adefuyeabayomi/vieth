@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>title</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="content-area.css">
+    </head>
+    <body>
+        <!--main-->
+        <div id="content_area_section" class="overflow-y">
+            <div id="page_component_wrapper">
+                    <keep-alive>
+                        <component class="animate__animated animate__fadeIn" v-bind:transaction-state="transactionObject" v-bind:is="currentPage"></component>
+                    </keep-alive>
+            </div>
+            <bottom-section></bottom-section>
+            
+        </div>
+        <!--main-->
+    </body>
+</html>

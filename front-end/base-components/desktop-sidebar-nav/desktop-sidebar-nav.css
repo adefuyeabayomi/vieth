@@ -1,0 +1,18 @@
+/* here i-ll control how much space the nav takes in desktop mode as well as other props such as overflowing, but not for the navigation but for the content area*/
+#side_bar_section{
+    display : none;
+    height: 83%;
+ 
+    margin-top: 1%;
+}
+@media (min-width :768px){
+    #side_bar_section{
+        display: block;
+        width: 350px;
+    }
+}
+@media ( min-width: 996px ){
+    #side_bar_section{
+        flex : 5 ;
+    }
+}

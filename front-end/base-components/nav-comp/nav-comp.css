@@ -1,0 +1,87 @@
+html{
+  padding: 0px;
+  margin: 0px
+}
+body{
+  margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav_list_container li{
+  list-style-type: none;
+  margin : 15px 0px;
+  border-radius: 10px 0px;
+  text-align: center;
+  padding: 0px;
+  font-size: 90%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 1px 1px 3px #4a8081;
+  color: #57616b;
+}
+.nav_list_container li a{
+    color: #57616b;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+  }
+  [class~="nav_items"]{
+      padding: 0px;
+  }
+  .nav_list_container li:hover ,.nav_list_container li a:hover{
+    color : #1c83b5;
+  }
+  .nav_list_container li:hover{
+      background-color: #daf5ff;
+      cursor: pointer;
+  }
+  .nav_list_container ul{
+  padding-left: 0px;
+}
+#navigation_header,#about_header{
+  font-size: 110%;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  color:  #44698a;
+}
+
+#about_header{
+  margin-top: 15px;  
+}
+.about_text{
+   color: #57616b;
+  font-size: 90%;
+  padding: 10px;
+}
+.about_container{
+  margin : 0px 3%;
+}
+.nav_list_container{
+  width: 65%;
+  margin: 0px auto;
+}
+.about_text a{
+  font-weight: 700;
+  color : #44698a;
+  letter-spacing: 0.5px;
+}
+[class~="active"]{
+  background-color: #b6cbc0;
+  color: #ffffff;
+}
+@media (min-width : 480px){
+  .nav_list_container{
+    width: 50%
+  }
+}
+@media (min-width : 600px){
+  .nav_list_container{
+    width: 48%
+  }
+}
+@media(min-width: 768px){
+  .nav_list_container{
+    width: 300px;
+  }
+}
+

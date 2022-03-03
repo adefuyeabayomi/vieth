@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hamburger</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./hamburger.css">
+    </head>
+    <body>
+        <!--main-->
+        <div id='hamburger_grouping'>
+            <div style="width: inherit; height : inherit;" v-on:click="action()">
+                <div v-bind:class="{tttc : tttcTrue, ttbth : ttbthTrue }" id='hamburger_top_line'></div>
+                <div v-bind:class="{tmtc : tmtcTrue, tmbth : tmbthTrue}" id='hamburger_mid_line'></div>
+                <div v-bind:class="{tbtc : tbtcTrue, tbbth : tbbthTrue }" id='hamburger_bottom_line'></div>
+            </div>
+        </div>
+        <!--main-->
+    </body>
+</html>
