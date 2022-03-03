@@ -202,5 +202,5 @@ const server = http.createServer((request,response) => {
 })
 
 server.listen(port,host,()=>{
-    console.log("server running on", host+port);
+    console.log("server running on localhost");
 })
