@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>title</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="">
+        <meta name="viewport" content="initial-scale=1,shrink-to-fit=no">
+    </head>
+    <body>
+        <!--main-->
+        <div class="chat_feedback_section h-m-content">
+            <div>
+                <div class="chats"> 
+                    <div class="msg_container" v-for="chat in chats">
+                        <p v-bind:class="{client : chat.client,admin : chat.admin }">{{chat.message}}</p>
+                    </div>
+                </div>
+                <div>
+                    <span><input v-model="clientMessage" type="text"></span><span><span class="fas fa-send"></span> Send</span>
+                </div>
+            </div>
+        </div>
+        <!--main-->
+    </body>
+</html>

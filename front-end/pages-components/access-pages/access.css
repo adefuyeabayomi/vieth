@@ -1,0 +1,135 @@
+#login_section .row,#signup_section .row{
+flex-direction: column;
+}
+.social_login_divider{
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    margin: 5% 5% 5% 5%;
+}
+#gmail_login,#facebook_login,#twitter_login{
+    width: 50%;
+margin: 10px auto;
+box-shadow: 0px 1px 9px gray;
+border-radius: 15px;
+padding: 12px;
+letter-spacing: 1px;
+padding-left: 25px;
+}
+#util_access_links{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 120%;
+    font-weight: 600;
+}
+#login_manual_form input, #signup_manual_form input, .password_recovery_page input{
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    height: 45px;
+    border-radius: 5px;
+}
+.submit_container button{
+    margin: 25px auto 10px auto;
+display: block;
+width: 150px;
+height: 35px;
+border: 1px solid #d2d2d2;
+box-shadow: 0px 0px 3px #e1d8d8;
+font-weight: 400;
+font-family: inherit;
+font-size: 140%;
+letter-spacing: 1px;
+color: #413f3d;
+}
+#loading-box{
+    width: 200px;
+}
+.password_recovery_page form p{
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 0px 5px 0px 5px;
+    font-size: 120%;
+    font-weight: 600;
+}
+.password_recovery_page{
+    margin-top: 5%;
+}
+[class~="success-modal"]{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background: #e5991c;
+    top: 0%;
+    z-index: 4;
+    opacity: 0.9;
+    left: 0%;
+}
+.modal_container_info{
+    background-color: #fff;
+width: 80%;
+padding: 20px;
+border-radius: 10px;
+margin-top: 30vh;
+margin-left: 9%;
+z-index: 5;
+}
+.modal_container_loading{
+background-color: #fff;
+width: 200px;
+padding: 20px;
+position : relative;
+border-radius: 10px;
+margin: 40vh auto 0px auto;
+z-index: 5;
+}
+.cta_modal_cont button{
+    display: block;
+width: 150px;
+height: 40px;
+background-color: #ffc088;
+font-weight: 600;
+color: #5d250a;
+margin: 0px auto;
+    margin-top: 0px;
+margin-top: 20px;
+}
+@media (min-width: 300px){
+    #gmail_login,#facebook_login,#twitter_login{
+        width: 75%;
+    }
+    #login_manual_form input, #signup_manual_form input, .password_recovery_page input{
+        width: 70%;
+        height: 35px;
+    }
+}
+@media (min-width: 500px){
+    #gmail_login,#facebook_login,#twitter_login{
+        width: 50%;
+    }
+    #login_manual_form input, #signup_manual_form input, .password_recovery_page input{
+        width: 50%;
+        height: 40px;
+    }
+}
+@media (max-width: 767px){
+    #otherFC{
+        height: max-content;
+    }
+}
+@media (min-width: 1024px){
+    #gmail_login,#facebook_login,#twitter_login{
+        width: 75%;
+    }
+    #login_manual_form input , #signup_manual_form input{
+        width: 70%;
+        height: 35px;
+    }
+    #login_section .row,#signup_section .row{
+        flex-direction: row;
+        margin: 0% 0px 10% 0px;
+    }
+    #login_section ,#signup_section{
+        margin-top: 10%;
+    }
+}
