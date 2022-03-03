@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <!--title bar-->
+        <title>Vieth_mobile | Buy cheap data and perform other transactions here.</title>
+        <!--character encoding-->
+        <meta charset="utf-8">
+        <meta lang="en-us">
+        <!--declare other relevant meta description here-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="" content="">
+        <meta http-equiv="" content="">
+        <!--add a favicon-->
+        <link rel="shortcut icon" type="images/x-icons" href="">
+        <!--Adding CSS-->
+        <link rel="stylesheet" type="text/css" href="base.css">
+        <link rel = "stylesheet" type="text/css" href="all.css">
+        <link rel="stylesheet" type="text/css" href="./animate.css/animate.css">
+        <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/Semantic-UI-CSS-master/semantic.css">
+        <link rel="stylesheet" type="text/css" href="yologrid/yologrid.css">
+        <link rel="stylesheet" type="text/css" href="./fontawesome-free-5.15.3-web/css/all.css">
+        <meta name="google-signin-client_id" content="394842070729-2kkjgs16gter8bicn2e1rd7fagf7gcep.apps.googleusercontent.com">
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script aync defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=358341489199000&autoLogAppEvents=1" nonce="1mpXXEu0"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <div id="app">
+            <div class="h-m-content fix top_bar_container order3">
+                <mobile-top-bar v-bind:ham-state="hamState" v-on:update-ham-state="updateHamState()" v-on:update-nav-state="updateNavState()"></mobile-top-bar>
+            </div>
+            <mobile-nav v-on:close-nav="closeNav()" v-on:update-ham-state="updateHamState()" v-if="mobileNavState" v-bind:navigation-state="navState"></mobile-nav>
+            <div id="other" v-if="!mobileNavState">
+                <div id="otherFC" class="container vh-full">
+                    <div class="row" id="main_row">
+                        <desktop-sidebar-navigation v-bind:navigation-state="navState"></desktop-sidebar-navigation>
+                        <content-area v-bind:login-state="loginState" v-bind:signup-state="signupState" v-bind:payment-state="paymentState" v-bind:transaction-state="transactionState" v-bind:login-state="loginState" v-bind:page="currentPage"></content-area>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <script src="main.js" type="module"></script>
+        <script>
+            function loginRequest(email,type,password){
+                let request = new XMLHttpRequest();
+                let url = `http://localhost/login?email=${email}&type=${type}&password=${password}`;
+                request.open("GET",url);
+                app.loginState.requestSent= true;
+                request.onload= function (){
+                    let response = request.response;
+                    if(response.message == "okay"){
+                        app.loginState.requestDone = true;
+                    }
+                    if(response.message = "wrong password"){
+                        app.loginState.requestSent = false;
+                        app.loginState.wrongPassword = true; 
+                    }
+                }
+                request.onerror = function (){
+                    app.loginState.networkError = true;
+                }
+            }
+            function onSignIn(googleUser){
+                let profile = googleUser.getBasicProfile();
+                let email = profile.getEmail();
+                //email,
+                //loginType <set both>.
+                loginRequest(email,"google");
+            }
+            function fbCheckUserStatus(){
+                FB.getLoginStatus(function (response){
+                    //change app state here
+                    if(response.status == "connected"){
+                    app.userEmail = response.userEmail;
+                    app.navState.logged = true;
+                    app.loginState.loggedIn = true;
+                
+                    loginRequest(response.userEmail,"facebook")
+                    }
+                })
+            }
+            function facebookLogin(){
+                FB.login(function(response){
+                    //handle the response
+                    if(response.status == "connected"){
+                        app.userEmail = response.email;
+                        app.navState.logged = true;
+                        app.loginState.loggedIn = true;
+                        loginRequest(response.userEmail,"facebook")
+                    }
+                },{scope : "email"})
+            }
+            function manualLogin(){
+                loginRequest(app.userEmail,"manual",password)
+            }
+        </script>
+    </body>
+    </html>
+    

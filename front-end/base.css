@@ -1,0 +1,144 @@
+@import url("./base-components/hamburger/hamburger.css");
+@import url("./base-components/close-button/close-button.css");
+@import url("./base-components/mobile-top-bar/mobile-top-bar.css");
+@import url("./base-components/nav-comp/nav-comp.css");
+@import url("./base-components/mobile-nav/mobile-nav.css");
+@import url("./base-components/content-area/content-area.css");
+@import url("./base-components/desktop-sidebar-nav/desktop-sidebar-nav.css");
+@import url("./base-components/bottom-section/bottom-section.css");
+@import url("./other-components/pricing/pricing.css");
+@import url("./pages-components/access-pages/access.css");
+@import url("./pages-components/admin-front-end/adm.css");
+@import url("./pages-components/transactions/transactions.css");
+@import url("./pages-components/feedback-chat/chat.css");
+@import url("./pages-components/user-account/account.css");
+@import url("./pages-components/homepage/homepage.css");
+@import url("./font/font.css");
+*{
+    font-family: "Dekko";
+}
+@font-face{
+    font-family:'AlbertText-Bold' ;
+    src: url('./AlbertText-Bold.ttf');
+}
+@font-face{
+    font-family: "Amaranth";
+    src : url("./Amaranth-Bold.ttf");
+}
+@font-face{
+    font-family: "Amaranth";
+    src: url("./Amaranth-Regular.ttf");
+}
+
+[class~="top_bar_container"]{
+    box-shadow: 1px 1px 3px grey;
+    background-color: white;
+}
+[class~="overflow-y"]{
+    overflow-y: scroll;
+    scrollbar-width: thin
+}
+#mainArea{
+    z-index: 0.5;
+    position: absolute;
+    width: 100%;
+}
+#main_row{
+    position: absolute;
+    height: inherit;
+    padding-top: 55px;
+}
+[class~="seen"]{
+    display: block;
+}
+[class~="hidden"]{
+    display: none;
+}
+[class~="order1"]{
+    z-index: 1;
+}
+[class~="order2"]{
+    z-index: 2;
+}
+[class~="order3"]{
+    z-index: 3;
+}
+.inline_display{
+    display: inline;
+}
+.std_header_1{
+    padding: 10px 0px 10px 0px;
+}
+.std_header_1 p{
+    font-size : 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.button_container_std button{
+    margin: 25px auto 10px auto;
+    display: block;
+    width: 178px;
+    height: 35px;
+    border: 1px solid #d2d2d2;
+    box-shadow: 0px 0px 1px #131313;
+    font-weight: 400;
+    font-family: inherit;
+    font-size: 140%;
+    letter-spacing: 1px;
+    color: #1b1b1b;
+    background-color: #77cced;
+    border-radius: 10px;
+}
+[class~="input_std"]{
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    height: 45px;
+    border-radius: 5px;
+}
+[class~="textcenter"]{
+    text-align: center;
+}
+[class~="ux-okay"]{
+    color : rgb(118, 216, 118);
+}
+[class~="ux-notOkay"]{
+    color: rgb(234, 94, 94);
+}
+[class~="ux-text"]{
+    font-weight: 500;
+    font-size: 85%;
+}
+[class~="floatRight"]{
+    font-size: 150%;
+    position: relative;
+    bottom: 39px;
+    left: 70%;
+}
+[class~="text-center"]{
+    text-align: center;
+}
+.colorBlueLink{
+    color: #204189;
+    font-weight: 600;
+}
+@media (min-width: 300px){
+    [class~="input_std"]{
+        width: 80%;
+        height: 35px;
+    }
+}
+@media (min-width: 500px){
+    [class~="input_std"]{
+        width: 50%;
+        height: 40px;
+    }
+}
+@media (min-width: 1024px){
+    [class~="input_std"]{
+        width: 45%;
+        height: 40px;
+    }
+}
