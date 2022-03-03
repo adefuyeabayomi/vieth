@@ -1,0 +1,51 @@
+.wallet_amount{
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 0px 5px 0px 5px;
+    font-size: 120%;
+    font-weight: 600;
+}
+#transaction_history_content{
+    letter-spacing: 1px;
+    font-size: 110%;
+}
+.transaction_box{
+    border: 2px solid;
+    width: 90%;
+    margin: 15px auto 15px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background: #121212;
+    color: white;
+    text-align: center;
+}
+.transaction_container:last-child{
+    margin-bottom: 40px;
+}
+.transaction_container{
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0px auto;
+}
+[class~="p_header_std"]{
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 0px 5px 0px 5px;
+    font-size: 120%;
+    font-weight: 600;
+}
+[class~="buy_select"]{
+    color : rgb(33, 33, 33);
+}
+[class~="left-pad-std"]{
+    padding-left : 0px;
+    padding-top: 15px !important;
+}
+#buy_airtime_section,#buy_data_section,#pay_for_cable_tv_section,.pay_for_electricity_section,.print_recharge_card_section,#buy_smile_data_section{
+    margin-top: 20px;
+    text-align: center;
+}
+#buy_airtime_section #first{
+    padding-top: 10px;
+}

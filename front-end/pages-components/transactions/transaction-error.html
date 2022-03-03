@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>title</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="">
+        <meta name="viewport" content="initial-scale=1,shrink-to-fit=no">
+    </head>
+    <body>
+        <!--main-->
+        <div v-bind:transaction-error="transSuccess">
+            <p class="trans-header">TRANSACTION SUCCESSFUL</p>
+            <p>
+                {{transactionObject.msg}}
+            </p>
+            <div>
+                <button>Go To Homepage</button>
+            </div>
+            <div>Try Again</div>
+        </div>
+        <!--main-->
+    </body>
+</html>

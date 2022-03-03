@@ -1,0 +1,266 @@
+.trans_button a,#sign_up_cta_btn_container a{
+    text-decoration: none;
+}
+.subline-text{
+    margin-top : 20px;
+    color: #ff7502;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+h4{
+    font-weight: 600;
+    border-top-style: solid;
+margin-top: 21px !important;
+border-top-width: 0px;
+}
+.img1_container{
+ 
+    position: relative;
+    width: max-content;
+    margin: 0px;
+    padding: 0px;
+}
+.img2_container{
+    display: none;
+    position: relative;
+    margin:0px;
+    padding: 0px;
+    width: max-content;
+    bottom : 6%;
+    left: 3%;
+    
+}
+.img1_container img{
+    width: 190px;
+    height: 110px;
+}
+.img2_container img{
+    width: 140px;
+    height: 50px;
+}
+.downward_arrow{
+    width: 25px;
+    display : block;
+    position: relative;
+    bottom : 5%;
+    margin : 0px auto;
+    margin-top: 11px;
+}
+#landing_section{
+  padding: 10px 2% 50px 2%;
+    max-width: 850px;
+    margin : 0px auto;
+}
+.landing_text_section{
+    text-align : center;
+    z-index: 1;
+    position: relative;
+    top: 20px;
+}
+#transactions_section{
+    background-color: #ffb62a;
+    padding: 20px 10px 20px 10px;
+    border-top-right-radius:10%;
+    border-top-left-radius: 10%;
+}
+.airtime_box,.data_box,.cable_tv_box,.electricity_box,.smile_box,.printing_box{
+    border-radius: 10px;
+    border: 2px solid #cfcfcf;
+    width : 300px;
+    margin : 0px auto;
+    font-size: 13px;
+    padding-left : 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: max-content;
+    background-color: #ffffff;
+}
+.sales_text_box{
+    margin-top: 0px auto;
+    margin: 0px auto;
+    width: 140%;
+    padding-top: 12%;
+    font-weight: 600;
+    z-index: 1;
+    position: relative;
+}
+.sales_text_box p{
+    padding-top: 0px;
+    font-size: 110%;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.trans_box_img{
+    width: 66%;
+    height: 120px;
+    float: right;
+}
+[class~="purchase_button"]:hover{
+    cursor :pointer;
+}
+[class~="purchase_button"]:active{
+    color : rgb(183, 183, 183);
+}
+[class~="purchase_button"]{
+    display: block;
+    margin-top: 15px;
+    padding: 5px 15px;
+    background-color: #ff9016;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.row_2{
+    margin-top: 30px
+}
+#cable_tv_img,#electricity_img,#data_img{
+    width: 160px;
+}
+#sign_up_cta{
+    padding-top: 45px;
+    height: max-content;
+    padding-bottom: 20px;
+}
+#sign_up_cta p{
+    width: 70%;
+    text-align: center;
+}
+.sign_up_cta_btn{
+    display: block;
+    margin: 0px auto;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #33a7ff;
+}
+.trans_header_text{
+    text-align: center;
+    font-weight: 700;
+    font-size: 110%;
+    letter-spacing: 0.8px;
+    color: #171615;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    font-family: "segoe ui";
+}
+.ell_container{
+    position: absolute;
+    width: 100%;
+    height : 220px;
+}
+
+
+    #sign_up_cta_btn_container{
+        margin-top: 25px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+@media (min-width: 300px){
+    .headline-text{
+        font-size: 20px;
+    }
+    .subline-text{
+        font-size : 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .transaction_items_row{
+        flex-direction: column;
+    }
+    .data_box{
+    margin-top: 30px;
+}
+    .electricity_box{
+        margin-top: 30px;
+    }
+    #sign_up_cta p{
+        position: relative;
+        padding-top: 0%;
+        width: 90%;
+        text-align: center;
+        font-size: 90%;
+        letter-spacing: 0.6px;
+        font-weight: 100;
+}
+    #cta_sub_ellipse{
+    width: 70%;
+    height: 210px;
+}
+.img1_container{
+    left : 30%;
+}
+}
+@media (min-width: 400px){
+    .img1_container{
+        left : 45%;
+    }
+}
+@media (min-width: 500px){
+     #cta_sub_ellipse{
+       width: 70%;
+        height: 100%;
+}
+.img1_container{
+    left : 55%;
+}
+}
+
+@media (min-width: 768px){
+    .headline-text{
+        font-size: 25px;
+    }
+       .subline-text{
+        font-size : 15px;
+    }
+    .img2_container{
+        display: block;
+    }
+    .data_box{
+    margin-top: 0px;
+}
+.f-1 .trans_button{
+    margin-bottom: 20px;
+}
+    #sign_up_cta p{
+        position: relative;
+        padding-top: 0%;
+        width: 90%;
+        text-align: center;
+        font-size: 90%;
+        letter-spacing: 0.6px;
+        font-weight: 100;
+}
+    .electricity_box{
+        margin-top: 0px;
+    }
+
+    .airtime_box,.data_box,.cable_tv_box,.electricity_box{
+        width: 320px;
+        height: 150px
+    }
+    .img1_container{
+        left : 45%;
+    }
+ 
+}   @media (min-width : 800px){
+        .ell_container{
+            height: 230px;
+        }
+        .img1_container{
+            left : 55%;
+        }
+    } 
+    @media (min-width: 1050px){
+        .img1_container{
+            left : 70%;
+        }
+        .transaction_items_row{
+            flex-direction: row;
+        }
+    }
+    @media (min-width : 1200px){
+        .ell_container{
+            height: 250px;
+        }
+    }
