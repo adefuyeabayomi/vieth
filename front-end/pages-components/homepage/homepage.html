@@ -10,15 +10,15 @@
         <!--main-->
         <div id="homepage_container">
             <div id="landing_section">
-                <div class="img1_container"><img src="images/Image 2@1x.png" class="landing_img1"></div>
+                <div class="img1_container"><img src="../../images/Image 2@1x.png" class="landing_img1"></div>
                 
                 <div class="landing_text_section">
                     <h1 class="headline-text">Get the best prices for data subscriptions and bills payment right here on vieth.online!</h1>
                     <h4 class="subline-text">Vieth.online offers you a quick and easy way to get your transactions done with amazing discounts</h4>
                     <h4>Get started right away!</h4>
-                    <img class="downward_arrow" src="images/Group 1@1x.png">
+                    <img class="downward_arrow" src="../../images/Group 1@1x.png">
                 </div>
-                <div class="img2_container"><img src="images/Image 3@1x.png" class="landing_img1"></div>
+                <div class="img2_container"><img src="../../images/Image 3@1x.png" class="landing_img1"></div>
             </div>
             <div id="transactions_section">
                 <div class="transaction_section_top_effect">
@@ -44,14 +44,14 @@
                                                 </div>
                                             </div>
                                             <div class="f-1">
-                                                <img src="images/business-3d-businessman-with-phone.png" class="trans_box_img" id="airtime_img">
+                                                <img src="../../images/business-3d-businessman-with-phone.png" class="trans_box_img" id="airtime_img">
                                             </div>
                                         </div>
                                        </div>    
                                     </div>
                                     <!--button-->
                                     <div class="trans_button">
-                                        <a href="#buy-airtime"><button class="purchase_button center" id="airtime_purchase_button">Buy Airtime</button></a>
+                                        <button class="purchase_button center" id="airtime_purchase_button"  v-on:click="$emit('switch-to-buy-airtime')">Buy Airtime</button>
                                     </div>
                                 </div><!--airtime-->
                                 <div class="f-1">
@@ -66,14 +66,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="f-1">
-                                                    <img src="images/cartoon-happy-family-watching-television-together_74855-6954.jpg" class="trans_box_img" id="data_img">
+                                                    <img src="../../images/cartoon-happy-family-watching-television-together_74855-6954.jpg" class="trans_box_img" id="data_img">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <!--button-->
                                     <div class="trans_button">
-                                        <a href="#buy-data"><button class="purchase_button center" id="data_purchase_button">Purchase Data</button></a>
+                                        <button class="purchase_button center" id="data_purchase_button" v-on:click="$emit('switch-to-buy-data')">Purchase Data</button>
                                     </div>
                                 </div><!--data-->
                             </div>
@@ -94,7 +94,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="f-1">
-                                                    <img src="images/people-watching-news-concept-illustration_114360-4460.jpg" class="trans_box_img" id="cable_tv_img">
+                                                    <img src="../../images/people-watching-news-concept-illustration_114360-4460.jpg" class="trans_box_img" id="cable_tv_img">
                                                 </div>
                                             </div>
                                         </div>
@@ -104,7 +104,7 @@
                                     </div>
                                     <!--button-->
                                     <div class="trans_button">
-                                        <a href="#pay-for-cable-tv"><button class="purchase_button center" id="cable_tv_purchase_button">Top Up Your TV</button></a>
+                                        <button class="purchase_button center" id="cable_tv_purchase_button" v-on:click="$emit('switch-to-pay-for-cable-tv')">Top Up Your TV</button>
                                     </div>
                                 </div><!--cable_tv-->
                                 <div class="f-1">
@@ -119,7 +119,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="f-1">
-                                                    <img src="images/solar-power-plant-maintenance-utility-workers-repairing-electric-installations-boxes-towers-power-lines-electric-network-operation-city-service-renewable-energy-topics_74855-8590.jpg" class="trans_box_img" id="electricity_img">                                                    
+                                                    <img src="../../images/solar-power-plant-maintenance-utility-workers-repairing-electric-installations-boxes-towers-power-lines-electric-network-operation-city-service-renewable-energy-topics_74855-8590.jpg" class="trans_box_img" id="electricity_img">                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -128,7 +128,7 @@
                                     </div>
                                     <!--button-->
                                     <div class="trans_button">
-                                        <a href="#pay-for-electricity"><button class="purchase_button center" id="electricity_purchase_button">Pay For Electricity</button></a>
+                                        <button class="purchase_button center" id="electricity_purchase_button" v-on:click="$emit('switch-to-pay-for-electricity')">Pay For Electricity</button>
                                     </div>
                                 </div><!--electricity-->
                             </div>
@@ -149,7 +149,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="f-1">
-                                                    <img src="images/favpng_wi-fi-router-4g-hotspot-3g.png" class="trans_box_img" id="cable_tv_img">
+                                                    <img src="../../images/people-watching-news-concept-illustration_114360-4460.jpg" class="trans_box_img" id="cable_tv_img">
                                                 </div>
                                             </div>
                                         </div>
@@ -159,7 +159,7 @@
                                     </div>
                                     <!--button-->
                                     <div class="trans_button">
-                                        <a href="#buy-smile-data"><button class="purchase_button center" id="smile_button">Top Up Your Smile Mifi</button></a>
+                                        <button class="purchase_button center" id="smile_button" v-on:click="$emit('switch-to-buy-smile-data')">Top Up Your Smile Mifi</button>
                                     </div>
                                 </div><!--cable_tv-->
                                 <div class="f-1">
@@ -174,7 +174,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="f-1">
-                                                    <img src="images/images.jpeg" class="trans_box_img" id="electricity_img">                                                    
+                                                    <img src="../../images/solar-power-plant-maintenance-utility-workers-repairing-electric-installations-boxes-towers-power-lines-electric-network-operation-city-service-renewable-energy-topics_74855-8590.jpg" class="trans_box_img" id="electricity_img">                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -183,7 +183,7 @@
                                     </div>
                                     <!--button-->
                                     <div class="trans_button">
-                                        <a href="#print-recharge-card"><button class="purchase_button center" id="recharge_card_printing_button">Print Recharge Card Here.</button></a>
+                                        <button class="purchase_button center" id="recharge_card_printing_button" v-on:click="$emit('switch-to-print-recharge-card')">Print Recharge Card Here.</button>
                                     </div>
                                 </div><!--electricity-->
                             </div>
@@ -199,7 +199,7 @@
                         and perform all your transactions quickly which will save your the time of 
                         using your card everytime you want to make a transaction.</p>
                     <div id="sign_up_cta_btn_container">
-                        <a href="#signup"><button class="sign_up_cta_btn">Sign Up</button></a>
+                        <button class="sign_up_cta_btn" v-on:click="$emit('switch-to-sign-up')">Sign Up</button>
                     </div>
                 </div>
             </div>
