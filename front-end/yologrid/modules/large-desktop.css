@@ -1,0 +1,1094 @@
+@media (min-width: 1201px){
+    [class~="row-single-desktop-lg"]{
+        flex-wrap: nowrap;
+    }
+    [class~="row-multiple-desktop-lg"]{
+        flex-wrap: wrap;
+    }
+    [class~="row-horizontal-desktop-lg"]{
+        flex-direction: row;
+    }
+    [class~="row-vertical-desktop-lg"]{
+        flex-direction: column;
+    }
+    
+    /*block width :- The 12 column row. Use this if you want multi-line Support */
+    
+    [class~="w-1-desktop-lg"]{
+        width:8.333% ;   
+    }
+    [class~="w-2-desktop-lg"]{
+        width: 16.666% ;
+    }
+    [class~="w-3-desktop-lg"]{
+        width: 24.999% ;
+    }
+    [class~="w-4-desktop-lg"]{
+        width: 33.333%;
+    }
+    [class~="w-5-desktop-lg"]{
+        width: 41.666%;
+    }
+    [class~="w-6-desktop-lg"]{
+        width: 49.999%;
+    }
+    [class~="w-7-desktop-lg"]{
+        width: 58.333%;
+    }
+    [class~="w-8-desktop-lg"]{
+        width: 66.666%;
+    }
+    [class~="w-9-desktop-lg"]{
+        width: 74.999%;
+    }
+    [class~="w-10-desktop-lg"]{
+        width: 83.333%;
+    }
+    [class~="w-11-desktop-lg"]{
+        width: 91.666%;
+    }
+    [class~="w-12-desktop-lg"]{
+        width: 99,999%;
+    }
+    
+    /*flex width :- The 12 column row. Use this if you are not using a multi line support*/
+    
+    [class~="f-1-desktop-lg"]{
+        flex: 1;   
+    }
+    [class~="f-2-desktop-lg"]{
+        flex: 2;
+    }
+    [class~="f-3-desktop-lg"]{
+        flex: 3;
+    }
+    [class~="f-4-desktop-lg"]{
+        flex: 4;
+    }
+    [class~="f-5-desktop-lg"]{
+        flex: 5;
+    }
+    [class~="f-6-desktop-lg"]{
+        flex: 6;
+    }
+    [class~="f-7-desktop-lg"]{
+        flex: 7;
+    }
+    [class~="f-8-desktop-lg"]{
+        flex: 8;
+    }
+    [class~="f-9-desktop-lg"]{
+        flex: 9;
+    }
+    [class~="f-10-desktop-lg"]{
+        flex: 10;
+    }
+    [class~="f-11-desktop-lg"]{
+        flex: 11;
+    }
+    [class~="f-12-desktop-lg"]{
+        flex: 12;
+    }
+    
+    /*height*/
+    
+    /*max-content*/
+    
+    [class~="h-m-content-desktop-lg"]{
+        height: max-content;
+    }
+    [class~="h-auto-desktop-lg"]{
+        height: auto;
+    }
+    
+    /*vh*/
+    
+    [class~="vh-10-desktop-lg"]{
+        height: 10vh;
+    }
+    [class~="vh-20-desktop-lg"]{
+        height: 20vh;
+    }
+    [class~="vh-30-desktop-lg"]{
+        height: 30vh;
+    }
+    [class~="vh-40-desktop-lg"]{
+        height: 40vh;
+    }
+    [class~="vh-50-desktop-lg"]{
+        height: 50vh;
+    }
+    [class~="vh-60-desktop-lg"]{
+        height: 60vh;
+    }
+    [class~="vh-70-desktop-lg"]{
+        height: 70vh;
+    }
+    [class~="vh-80-desktop-lg"]{
+        height: 80vh;
+    }
+    [class~="vh-90-desktop-lg"]{
+        height: 90vh;
+    }
+    [class~="vh-full-desktop-lg"]{
+        height: 100vh;
+    }
+    
+    
+    /*px height*/
+    [class~="h-10px-desktop-lg"]{
+        height: 10px;
+    }
+    [class~="h-20px-desktop-lg"]{
+        height: 20px;
+    }
+    [class~="h-30px-desktop-lg"]{
+        height: 30px;
+    }
+    [class~="h-40px-desktop-lg"]{
+        height: 40px;
+    }
+    [class~="h-50px-desktop-lg"]{
+        height: 50px;
+    }
+    [class~="h-60px-desktop-lg"]{
+        height: 60px;
+    }
+    [class~="h-70px-desktop-lg"]{
+        height: 70px;
+    }
+    [class~="h-80px-desktop-lg"]{
+        height: 80px;
+    }
+    [class~="h-90px-desktop-lg"]{
+        height: 90px;
+    }
+    [class~="h-100px-desktop-lg"]{
+        height: 100px;
+    }
+    [class~="h-110px-desktop-lg"]{
+        height: 110px;
+    }
+    [class~="h-120px-desktop-lg"]{
+        height: 120px;
+    }
+    [class~="h-130px-desktop-lg"]{
+        height: 130px;
+    }
+    [class~="h-140px-desktop-lg"]{
+        height: 140px;
+    }
+    [class~="h-150px-desktop-lg"]{
+        height: 150px;
+    }
+    [class~="h-160px-desktop-lg"]{
+        height: 160px;
+    }
+    [class~="h-170px-desktop-lg"]{
+        height: 170px;
+    }
+    [class~="h-180px-desktop-lg"]{
+        height: 180px;
+    }
+    [class~="h-190px-desktop-lg"]{
+        height: 190px;
+    }
+    [class~="h-200px-desktop-lg"]{
+        height: 200px;
+    }
+    [class~="h-220px-desktop-lg"]{
+        height: 220px;
+    }
+    [class~="h-240px-desktop-lg"]{
+        height: 240px;
+    }
+    [class~="h-260px-desktop-lg"]{
+        height: 260px;
+    }
+    [class~="h-280px-desktop-lg"]{
+        height: 280px;   
+    }
+    [class~="h-300px-desktop-lg"]{
+        height: 300px;
+    }
+    [class~="h-320px-desktop-lg"]{
+        height: 320px;
+    }
+    [class~="h-340px-desktop-lg"]{
+        height: 340px;
+    }
+    [class~="h-360px-desktop-lg"]{
+        height: 360px;
+    }
+    [class~="h-380px-desktop-lg"]{
+        height: 380px;
+    }
+    [class~="h-400px-desktop-lg"]{
+        height: 400px;
+    }
+    [class~="h-420px-desktop-lg"]{
+        height: 420px;
+    }
+    [class~="h-440px-desktop-lg"]{
+        height: 440px;
+    }
+    [class~="h-460px-desktop-lg"]{
+        height: 460px;
+    }
+    [class~="h-480px-desktop-lg"]{
+        height: 480px;
+    }
+    [class~="h-500px-desktop-lg"]{
+        height: 500px;
+    }
+    [class~="h-520px-desktop-lg"]{
+        height: 520px;
+    }
+    [class~="h-540px-desktop-lg"]{
+        height: 540px;
+    }
+    [class~="h-560p-desktop-lgx"]{
+        height: 560px;
+    }
+    [class~="h-580px-desktop-lg"]{
+        height: 580px;
+    }
+    [class~="h-600px-desktop-lg"]{
+        height: 600px;
+    }
+    [class~="h-620px-desktop-lg"]{
+        height: 620px;
+    }
+    [class~="h-640px-desktop-lg"]{
+        height: 640px;
+    }
+    [class~="h-660px-desktop-lg"]{
+        height: 660px;
+    }
+    [class~="h-680px-desktop-lg"]{
+        height: 680px;
+    }
+    [class~="h-700px-desktop-lg"]{
+        height: 700px;
+    }
+    
+    /* max-height */
+    
+    [class~="maxh-10px-desktop-lg"]{
+        max-height: 10px;
+    }
+    [class~="maxh-20px-desktop-lg"]{
+        max-height: 20px;
+    }
+    [class~="maxh-30px-desktop-lg"]{
+        max-height: 30px;
+    }
+    [class~="maxh-40px-desktop-lg"]{
+        max-height: 40px;
+    }
+    [class~="maxh-50px-desktop-lg"]{
+        max-height: 50px;
+    }
+    [class~="maxh-60px-desktop-lg"]{
+        max-height: 60px;
+    }
+    [class~="maxh-70px-desktop-lg"]{
+        max-height: 70px;
+    }
+    [class~="maxh-80px-desktop-lg"]{
+        max-height: 80px;
+    }
+    [class~="maxh-90px-desktop-lg"]{
+        max-height: 90px;
+    }
+    [class~="maxh-100px-desktop-lg"]{
+        max-height: 100px;
+    }
+    [class~="maxh-110px-desktop-lg"]{
+        max-height: 110px;
+    }
+    [class~="maxh-120px-desktop-lg"]{
+        max-height: 120px;
+    }
+    [class~="maxh-130px-desktop-lg"]{
+        max-height: 130px;
+    }
+    [class~="maxh-140px-desktop-lg"]{
+        max-height: 140px;
+    }
+    [class~="maxh-150px-desktop-lg"]{
+        max-height: 150px;
+    }
+    [class~="maxh-160px-desktop-lg"]{
+        max-height: 160px;
+    }
+    [class~="maxh-170px-desktop-lg"]{
+        max-height: 170px;
+    }
+    [class~="maxh-180px-desktop-lg"]{
+        max-height: 180px;
+    }
+    [class~="maxh-190px-desktop-lg"]{
+        max-height: 190px;
+    }
+    [class~="maxh-200px-desktop-lg"]{
+        max-height: 200px;
+    }
+    [class~="maxh-220px-desktop-lg"]{
+        max-height: 220px;
+    }
+    [class~="maxh-240px-desktop-lg"]{
+        max-height: 240px;
+    }
+    [class~="maxh-260px-desktop-lg"]{
+        max-height: 260px;
+    }
+    [class~="maxh-280px-desktop-lg"]{
+        max-height: 280px;   
+    }
+    [class~="maxh-300px-desktop-lg"]{
+        max-height: 300px;
+    }
+    [class~="maxh-320px-desktop-lg"]{
+        max-height: 320px;
+    }
+    [class~="maxh-340px-desktop-lg"]{
+        max-height: 340px;
+    }
+    [class~="maxh-360px-desktop-lg"]{
+        max-height: 360px;
+    }
+    [class~="maxh-380px-desktop-lg"]{
+        max-height: 380px;
+    }
+    [class~="maxh-400px-desktop-lg"]{
+        max-height: 400px;
+    }
+    [class~="maxh-420px-desktop-lg"]{
+        max-height: 420px;
+    }
+    [class~="maxh-440px-desktop-lg"]{
+        max-height: 440px;
+    }
+    [class~="maxh-460px-desktop-lg"]{
+        max-height: 460px;
+    }
+    [class~="maxh-480px-desktop-lg"]{
+        max-height: 480px;
+    }
+    [class~="maxh-500px-desktop-lg"]{
+        max-height: 500px;
+    }
+    [class~="maxh-520px-desktop-lg"]{
+        max-height: 520px;
+    }
+    [class~="maxh-540px-desktop-lg"]{
+        max-height: 540px;
+    }
+    [class~="maxh-560px-desktop-lg"]{
+        max-height: 560px;
+    }
+    [class~="maxh-580px-desktop-lg"]{
+        max-height: 580px;
+    }
+    [class~="maxh-600px-desktop-lg"]{
+        max-height: 600px;
+    }
+    [class~="maxh-620px-desktop-lg"]{
+        max-height: 620px;
+    }
+    [class~="maxh-640px-desktop-lg"]{
+        max-height: 640px;
+    }
+    [class~="maxh-660px-desktop-lg"]{
+        max-height: 660px;
+    }
+    [class~="maxh-680px-desktop-lg"]{
+        max-height: 680px;
+    }
+    [class~="maxh-700px-desktop-lg"]{
+        max-height: 700px;
+    }
+    
+    /* min height*/
+    [class~="minh-10px-desktop-lg"]{
+        min-height: 10px;
+    }
+    [class~="minh-20px-desktop-lg"]{
+        min-height: 20px;
+    }
+    [class~="minh-30px-desktop-lg"]{
+        min-height: 30px;
+    }
+    [class~="minh-40px-desktop-lg"]{
+        min-height: 40px;
+    }
+    [class~="minh-50px-desktop-lg"]{
+        min-height: 50px;
+    }
+    [class~="minh-60px-desktop-lg"]{
+        min-height: 60px;
+    }
+    [class~="minh-70px-desktop-lg"]{
+        min-height: 70px;
+    }
+    [class~="minh-80px-desktop-lg"]{
+        min-height: 80px;
+    }
+    [class~="minh-90px-desktop-lg"]{
+        min-height: 90px;
+    }
+    [class~="minh-100px-desktop-lg"]{
+        min-height: 100px;
+    }
+    [class~="minh-110px-desktop-lg"]{
+        min-height: 110px;
+    }
+    [class~="minh-120px-desktop-lg"]{
+        min-height: 120px;
+    }
+    [class~="minh-130px-desktop-lg"]{
+        min-height: 130px;
+    }
+    [class~="minh-140px-desktop-lg"]{
+        min-height: 140px;
+    }
+    [class~="minh-150px-desktop-lg"]{
+        min-height: 150px;
+    }
+    [class~="minh-160px-desktop-lg"]{
+        min-height: 160px;
+    }
+    [class~="minh-170px-desktop-lg"]{
+        min-height: 170px;
+    }
+    [class~="minh-180px-desktop-lg"]{
+        min-height: 180px;
+    }
+    [class~="minh-190px-desktop-lg"]{
+        min-height: 190px;
+    }
+    [class~="minh-200px-desktop-lg"]{
+        min-height: 200px;
+    }
+    [class~="minh-220px-desktop-lg"]{
+        min-height: 220px;
+    }
+    [class~="minh-240px-desktop-lg"]{
+        min-height: 240px;
+    }
+    [class~="minh-260px-desktop-lg"]{
+        min-height: 260px;
+    }
+    [class~="minh-280px-desktop-lg"]{
+        min-height: 280px;   
+    }
+    [class~="minh-300px-desktop-lg"]{
+        min-height: 300px;
+    }
+    [class~="minh-320px-desktop-lg"]{
+        min-height: 320px;
+    }
+    [class~="minh-340px-desktop-lg"]{
+        min-height: 340px;
+    }
+    [class~="minh-360px-desktop-lg"]{
+        min-height: 360px;
+    }
+    [class~="minh-380px-desktop-lg"]{
+        min-height: 380px;
+    }
+    [class~="minh-400px-desktop-lg"]{
+        min-height: 400px;
+    }
+    [class~="minh-420px-desktop-lg"]{
+        min-height: 420px;
+    }
+    [class~="minh-440px-desktop-lg"]{
+        min-height: 440px;
+    }
+    [class~="minh-460px-desktop-lg"]{
+        min-height: 460px;
+    }
+    [class~="minh-480px-desktop-lg"]{
+        min-height: 480px;
+    }
+    [class~="minh-500px-desktop-lg"]{
+        min-height: 500px;
+    }
+    [class~="minh-520px-desktop-lg"]{
+        min-height: 520px;
+    }
+    [class~="minh-540px-desktop-lg"]{
+        min-height: 540px;
+    }
+    [class~="minh-560px-desktop-lg"]{
+        min-height: 560px;
+    }
+    [class~="minh-580px-desktop-lg"]{
+        min-height: 580px;
+    }
+    [class~="minh-600px-desktop-lg"]{
+        min-height: 600px;
+    }
+    [class~="minh-620px-desktop-lg"]{
+        min-height: 620px;
+    }
+    [class~="minh-640px-desktop-lg"]{
+        min-height: 640px;
+    }
+    [class~="minh-660px-desktop-lg"]{
+        min-height: 660px;
+    }
+    [class~="minh-680px-desktop-lg"]{
+        min-height: 680px;
+    }
+    [class~="minh-700px-desktop-lg"]{
+        min-height: 700px;
+    }
+    
+    /*Margin and Padding*/
+    
+    /* paddings */
+    [class~="p-1-desktop-lg"]{
+        padding: 5px;
+    }
+    [class~="p-2-desktop-lg"]{
+        padding: 10px;
+    }
+    [class~="p-3-desktop-lg"]{
+        padding: 15px;
+    }
+    [class~="p-4-desktop-lg"]{
+        padding: 20px;
+    }
+    [class~="p-5-desktop-lg"]{
+        padding: 25px;
+    }
+    [class~="p-6-desktop-lg"]{
+        padding: 30px;
+    }
+    [class~="p-7-desktop-lg"]{
+        padding: 35px;
+    }
+    [class~="p-8-desktop-lg"]{
+        padding: 40px;
+    }
+    [class~="p-9-desktop-lg"]{
+        padding: 45px;
+    }
+    [class~="p-10-desktop-lg"]{
+        padding: 50px;
+    }
+    /* padding top */
+    [class~="p-top-1-desktop-lg"]{
+        padding-top: 5px;
+    }
+    [class~="p-top-2-desktop-lg"]{
+        padding-top: 10px;
+    }
+    [class~="p-top-3-desktop-lg"]{
+        padding-top: 15px;
+    }
+    [class~="p-top-4-desktop-lg"]{
+        padding-top: 20px;
+    }
+    [class~="p-top-5-desktop-lg"]{
+        padding-top: 25px;
+    }
+    [class~="p-top-6-desktop-lg"]{
+        padding-top: 30px;
+    }
+    [class~="p-top-7-desktop-lg"]{
+        padding-top: 35px;
+    }
+    [class~="p-top-8-desktop-lg"]{
+        padding-top: 40px;
+    }
+    [class~="p-top-9-desktop-lg"]{
+        padding-top: 45px;
+    }
+    [class~="p-top-10-desktop-lg"]{
+    padding-top: 50px;
+    }
+    /* padding bottom*/
+    [class~="p-bottom-1-desktop-lg"]{
+        padding-bottom: 5px;
+    }
+    [class~="p-bottom-2-desktop-lg"]{
+        padding-bottom: 10px;
+    }
+    [class~="p-bottom-3-desktop-lg"]{
+        padding-bottom: 15px;
+    }
+    [class~="p-bottom-4-desktop-lg"]{
+        padding-bottom: 20px;
+    }
+    [class~="p-bottom-5-desktop-lg"]{
+        padding-bottom: 25px;
+    }
+    [class~="p-bottom-6-desktop-lg"]{
+        padding-bottom: 30px;
+    }
+    [class~="p-bottom-7-desktop-lg"]{
+        padding-bottom: 35px;
+    }
+    [class~="p-bottom-8-desktop-lg"]{
+        padding-bottom: 40px;
+    }
+    [class~="p-bottom-9-desktop-lg"]{
+        padding-bottom: 45px;
+    }
+    [class~="p-bottom-10-desktop-lg"]{
+        padding-bottom: 50px;
+    }
+    
+    /* padding left*/
+    [class~="p-left-1-desktop-lg"]{
+        padding-left: 5px;
+    }
+    [class~="p-left-2-desktop-lg"]{
+        padding-left: 10px;
+    }
+    [class~="p-left-3-desktop-lg"]{
+        padding-left: 15px;
+    }
+    [class~="p-left-4-desktop-lg"]{
+        padding-left: 20px;
+    }
+    [class~="p-left-5-desktop-lg"]{
+        padding-left: 25px;
+    }
+    [class~="p-left-6-desktop-lg"]{
+        padding-left: 30px;
+    }
+    [class~="p-left-7-desktop-lg"]{
+        padding-left: 35px;
+    }
+    [class~="p-left-8-desktop-lg"]{
+        padding-left: 40px;
+    }
+    [class~="p-left-9-desktop-lg"]{
+        padding-left: 45px;
+    }
+    [class~="p-left-10-desktop-lg"]{
+        padding-left: 50px;
+    }
+    /* padding right*/
+    [class~="p-right-1-desktop-lg"]{
+        padding-right: 5px;
+    }
+    [class~="p-right-2-desktop-lg"]{
+        padding-right: 10px;
+    }
+    [class~="p-right-3-desktop-lg"]{
+        padding-right: 15px;
+    }
+    [class~="p-right-4-desktop-lg"]{
+        padding-right: 20px;
+    }
+    [class~="p-right-5-desktop-lg"]{
+        padding-right: 25px;
+    }
+    [class~="p-right-6-desktop-lg"]{
+        padding-right: 30px;
+    }
+    [class~="p-right-7-desktop-lg"]{
+        padding-right: 35px;
+    }
+    [class~="p-right-8-desktop-lg"]{
+        padding-right: 40px;
+    }
+    [class~="p-right-9-desktop-lg"]{
+        padding-right: 45px;
+    }
+    [class~="p-right-10-desktop-lg"]{
+        padding-right: 50px;
+    }
+    
+    /* margins */
+    
+    
+    [class~="m-1-desktop-lg"]{
+        margin: 5px;
+    }
+    [class~="m-2-desktop-lg"]{
+        margin: 10px;
+    }
+    [class~="m-3-desktop-lg"]{
+        margin: 15px;
+    }
+    [class~="m-4-desktop-lg"]{
+        margin: 20px;
+    }
+    [class~="m-5-desktop-lg"]{
+        margin: 25px;
+    }
+    [class~="m-6-desktop-lg"]{
+        margin: 30px;   
+    }
+    [class~="m-7-desktop-lg"]{
+        margin: 35px;   
+    }
+    [class~="m-8-desktop-lg"]{
+        margin: 40px;   
+    }
+    [class~="m-9-desktop-lg"]{
+        margin: 45px;   
+    }
+    [class~="m-10-desktop-lg"]{
+        margin: 50px;   
+    }
+    
+    /* margin-top */
+    [class~="m-top-1-desktop-lg"]{
+        margin-top: 5px;
+    }
+    [class~="m-top-2-desktop-lg"]{
+        margin-top: 10px;
+    }
+    [class~="m-top-3-desktop-lg"]{
+        margin-top: 15px;
+    }
+    [class~="m-top-4-desktop-lg"]{
+        margin-top: 20px;
+    }
+    [class~="m-top-5-desktop-lg"]{
+        margin-top: 25px;
+    }
+    [class~="m-top-6-desktop-lg"]{
+        margin-top: 30px;
+    }
+    [class~="m-top-7-desktop-lg"]{
+        margin-top: 35px;
+    }
+    [class~="m-top-8-desktop-lg"]{
+        margin-top: 40px;
+    }
+    [class~="m-top-9-desktop-lg"]{
+        margin-top: 45px;
+    }
+    [class~="m-top-10-desktop-lg"]{
+        margin-top: 50px;
+    }
+    /* margin-bottom */
+    [class~="m-bottom-1-desktop-lg"]{
+        margin-bottom: 5px;
+    }
+    [class~="m-bottom-2-desktop-lg"]{
+        margin-bottom: 10px;
+    }
+    [class~="m-bottom-3-desktop-lg"]{
+        margin-bottom: 15px;
+    }
+    [class~="m-bottom-4-desktop-lg"]{
+        margin-bottom: 20px;
+    }
+    [class~="m-bottom-5-desktop-lg"]{
+        margin-bottom: 25px;
+    }
+    [class~="m-bottom-6-desktop-lg"]{
+        margin-bottom: 30px;
+    }
+    [class~="m-bottom-7-desktop-lg"]{
+        margin-bottom: 35px;
+    }
+    [class~="m-bottom-8-desktop-lg"]{
+        margin-bottom: 40px;
+    }
+    [class~="m-bottom-9-desktop-lg"]{
+        margin-bottom: 45px;
+    }
+    [class~="m-bottom-10-desktop-lg"]{
+        margin-bottom: 50px;
+    }
+    /* margin-left */
+    [class~="m-left-1-desktop-lg"]{
+        margin-left: 5px;
+    }
+    [class~="m-left-2-desktop-lg"]{
+        margin-left: 10px;
+    }
+    [class~="m-left-3-desktop-lg"]{
+        margin-left: 15px;
+    }
+    [class~="m-left-4-desktop-lg"]{
+        margin-left: 20px;
+    }
+    [class~="m-left-5-desktop-lg"]{
+        margin-left: 25px;
+    }
+    [class~="m-left-6-desktop-lg"]{
+        margin-left: 30px;
+    }
+    [class~="m-left-7-desktop-lg"]{
+        margin-left: 35px;
+    }
+    [class~="m-left-8-desktop-lg"]{
+        margin-left: 40px;
+    }
+    [class~="m-left-9-desktop-lg"]{
+        margin-left: 45px;
+    }
+    [class~="m-left-10-desktop-lg"]{
+        margin-left: 50px;
+    }
+    /* margin-right*/
+    [class~="m-right-1-desktop-lg"]{
+        margin-right: 5px;
+    }
+    [class~="m-right-2-desktop-lg"]{
+        margin-right: 10px;
+    }
+    [class~="m-right-3-desktop-lg"]{
+        margin-right: 15px;
+    }
+    [class~="m-right-4-desktop-lg"]{
+        margin-right: 20px;
+    }
+    [class~="m-right-5-desktop-lg"]{
+        margin-right: 25px;
+    }
+    [class~="m-right-6-desktop-lg"]{
+        margin-right: 30px;
+    }
+    [class~="m-right-7-desktop-lg"]{
+        margin-right: 35px;
+    }
+    [class~="m-right-8-desktop-lg"]{
+        margin-right: 40px;
+    }
+    [class~="m-right-9-desktop-lg"]{
+        margin-right: 45px;
+    }
+    [class~="m-right-10-desktop-lg"]{
+        margin-right: 50px;
+    }
+    
+    /* box-stacking */
+    
+    /* container to hold a pile of boxes*/
+    .box-stacking-container-desktop-lg{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    /* formatting for putting a box in a box pile.*/
+    [class~="in-pile-desktop-lg"]{
+        display: block;
+        width: 100% !important;
+        position: absolute;
+        z-index: 1;
+    }
+    /* selecting the UpperMost layer*/
+    [class~="active-layer-desktop-lg"]{
+        z-index: 2 !important;
+    }
+    
+    /*background formatting*/
+    [class~="bg-desktop-lg"]{
+        background-clip: border-box;
+    }
+    [class~="bg-norepeat-desktop-lg"]{
+        background-repeat: no-repeat;
+    }
+    [class~="bg-repeat-desktop-lg"]{
+        background-repeat: repeat;
+    }
+    [class~="bg-repeatx-desktop-lg"]{
+        background-repeat: repeat-x;
+    }
+    [class~="bg-repeaty-desktop-lg"]{
+        background-repeat: repeat-y;
+    }
+    [class~="bg-contain-desktop-lg"]{
+        background-size: contain;
+    }
+    [class~="bg-cover-desktop-lg"]{
+        background-size: cover;
+    }
+    [class~="bg-auto-desktop-lg"]{
+        background-size: auto;
+    }
+    [class~="bg-fill-desktop-lg"]{
+        background-size: 100% 100%;
+    }
+    [class~="bg-fill-90-desktop-lg"]{
+        background-size: 90% 90%;
+    }
+    [class~="bg-fill-80-desktop-lg"]{
+        background-size: 80% 80%;
+    }
+    [class~="bg-fill-70-desktop-lg"]{
+        background-size: 70% 70%;
+    }
+    [class~="bg-fill-60-desktop-lg"]{
+        background-size: 60% 60%;
+    }
+    [class~="bg-pos-center-desktop-lg"]{
+        background-position: center center;
+    }
+    [class~="bg-pos-left-center-desktop-lg"]{
+        background-position: left center;
+    }
+    [class~="bg-pos-right-center-desktop-lg"]{
+        background-position: right center;
+    }
+    [class~="bg-pos-top-left-desktop-lg"]{
+        background-position: top left;
+    }
+    [class~="bg-pos-top-right-desktop-lg"]{
+        background-position: top right;
+    }
+    [class~="bg-pos-bottom-left-desktop-lg"]{
+        background-position: bottom left;
+    }
+    [class~="bg-pos-bottom-right-desktop-lg"]{
+        background-position: bottom right;
+    }
+    [class~="bg-fixed-desktop-lg"]{
+        background-attachment: fixed;
+    }
+    
+    /* pseudo background, background changing animation */
+    
+    /* pseudo-animation-container */
+    [class~="pseudo-animation-container-desktop-lg"]{
+        position: relative;
+        display: block;
+    }
+    /* text and other fixed asset are kept in the static top frame which has no background. */
+    [class~="animation-top-layer"]{
+        position: absolute;
+        z-index: 3;
+    }
+    /* image containers */
+    [class~="animation-layer-container-desktop-lg"]{
+        position: absolute;
+        width: 100%; 
+        opacity: 0;  
+    }
+    [class~="animation-layer-container-desktop-lg"] img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* periodic changing of the content of animation container with the exception of the top layer. template*/
+    .first-in{
+        -webkit-animation-name: firstIn ;
+        animation-name: firstIn;
+        -webkit-animation-duration: 10s;
+        animation-duration: 10s;
+        -webkit-animation-timing-function: ease;
+        animation-timing-function: ease;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+        -webkit-animation-iteration-count: 120;
+        animation-iteration-count: 120;
+        -webkit-animation-fill-mode: none;
+        animation-fill-mode: none;
+    }
+    .second-in{
+        -webkit-animation-name: secondIn ;
+        animation-name: secondIn;
+        -webkit-animation-duration: 10s;
+        animation-duration: 10s;
+        -webkit-animation-timing-function: ease;
+        animation-timing-function: ease;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+        -webkit-animation-iteration-count: 120;
+        animation-iteration-count: 120;
+        -webkit-animation-fill-mode: none;
+        animation-fill-mode: none;
+    }
+    @keyframes firstIn{
+    0%{
+        opacity: 0;
+    }
+    5%{
+        opacity: 1;
+    }
+    49%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+    }
+    @keyframes secondIn{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    55%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    }
+    /* border , visibility for background , centering content*/
+    
+    /* visibility */
+    [class~="border-mini-desktop-lg"]{
+        border: 1px solid gray;
+    }
+    [class~="border-midi-desktop-lg"]{
+        border: 2px solid gray;
+    }
+    [class~="border-maxi-desktop-lg"]{
+        border: 3px solid;
+    }
+    [class~="border-rounded-mini-desktop-lg"]{
+        border-radius: 5px;
+    }
+    [class~="border-rounded-midi-desktop-lg"]{
+        border-radius: 10px;
+    }
+    [class~="border-rounded-maxi-desktop-lg"]{
+        border-radius: 15px;
+    }
+    [class~="visible-red-desktop-lg"]{
+        background-color: rgb(255, 218, 218);
+    }
+    [class~="visible-gray-desktop-lg"]{
+        background-color: rgb(146, 146, 146);   
+    }
+    [class~="visible-blue-desktop-lg"]{
+        background-color: rgb(182, 182, 255);
+    }
+    [class~="visible-teal-desktop-lg"]{
+        background-color: rgb(195, 255, 255);
+    }
+    /* optional display and hiding*/
+    [class~="display-desktop-lg"]{
+        display: block;
+    }
+    [class~="hide-desktop-lg"]{
+        display: none;
+    }
+    /* centering */
+    [class~="center-desktop-lg"]{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    [class~="fixed-top-desktop-lg"]{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+    [class~="fixed-bottom-desktop-lg"]{
+        position: fixed;
+        bottom: 0px;
+        left: 0psx;
+    }
+}

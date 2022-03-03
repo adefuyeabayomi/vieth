@@ -1,0 +1,1095 @@
+@media (max-width: 996px){
+    [class~="row-single-tablet"]{
+        flex-wrap: nowrap;
+    }
+    [class~="row-multiple-tablet"]{
+        flex-wrap: wrap;
+    }
+    [class~="row-horizontal-tablet"]{
+        flex-direction: row;
+    }
+    [class~="row-vertical-tablet"]{
+        flex-direction: column;
+    }
+    
+    /*block width :- The 12 column row. Use this if you want multi-line Support */
+    
+    [class~="w-1-tablet"]{
+        width:8.333% ;   
+    }
+    [class~="w-2-tablet"]{
+        width: 16.666% ;
+    }
+    [class~="w-3-tablet"]{
+        width: 24.999% ;
+    }
+    [class~="w-4-tablet"]{
+        width: 33.333%;
+    }
+    [class~="w-5-tablet"]{
+        width: 41.666%;
+    }
+    [class~="w-6-tablet"]{
+        width: 49.999%;
+    }
+    [class~="w-7-tablet"]{
+        width: 58.333%;
+    }
+    [class~="w-8-tablet"]{
+        width: 66.666%;
+    }
+    [class~="w-9-tablet"]{
+        width: 74.999%;
+    }
+    [class~="w-10-tablet"]{
+        width: 83.333%;
+    }
+    [class~="w-11-tablet"]{
+        width: 91.666%;
+    }
+    [class~="w-12-tablet"]{
+        width: 99,999%;
+    }
+    
+    /*flex width :- The 12 column row. Use this if you are not using a multi line support*/
+    
+    [class~="f-1-tablet"]{
+        flex: 1;   
+    }
+    [class~="f-2-tablet"]{
+        flex: 2;
+    }
+    [class~="f-3-tablet"]{
+        flex: 3;
+    }
+    [class~="f-4-tablet"]{
+        flex: 4;
+    }
+    [class~="f-5-tablet"]{
+        flex: 5;
+    }
+    [class~="f-6-tablet"]{
+        flex: 6;
+    }
+    [class~="f-7-tablet"]{
+        flex: 7;
+    }
+    [class~="f-8-tablet"]{
+        flex: 8;
+    }
+    [class~="f-9-tablet"]{
+        flex: 9;
+    }
+    [class~="f-10-tablet"]{
+        flex: 10;
+    }
+    [class~="f-11-tablet"]{
+        flex: 11;
+    }
+    [class~="f-12-tablet"]{
+        flex: 12;
+    }
+    
+    /*height*/
+    
+    /*max-content*/
+    
+    [class~="h-m-content-tablet"]{
+        height: max-content;
+    }
+    [class~="h-auto-tablet"]{
+        height: auto;
+    }
+    
+    /*vh*/
+    
+    [class~="vh-10-tablet"]{
+        height: 10vh;
+    }
+    [class~="vh-20-tablet"]{
+        height: 20vh;
+    }
+    [class~="vh-30-tablet"]{
+        height: 30vh;
+    }
+    [class~="vh-40-tablet"]{
+        height: 40vh;
+    }
+    [class~="vh-50-tablet"]{
+        height: 50vh;
+    }
+    [class~="vh-60-tablet"]{
+        height: 60vh;
+    }
+    [class~="vh-70-tablet"]{
+        height: 70vh;
+    }
+    [class~="vh-80-tablet"]{
+        height: 80vh;
+    }
+    [class~="vh-90-tablet"]{
+        height: 90vh;
+    }
+    [class~="vh-full-tablet"]{
+        height: 100vh;
+    }
+    
+    
+    /*px height*/
+    [class~="h-10px-tablet"]{
+        height: 10px;
+    }
+    [class~="h-20px-tablet"]{
+        height: 20px;
+    }
+    [class~="h-30px-tablet"]{
+        height: 30px;
+    }
+    [class~="h-40px-tablet"]{
+        height: 40px;
+    }
+    [class~="h-50px-tablet"]{
+        height: 50px;
+    }
+    [class~="h-60px-tablet"]{
+        height: 60px;
+    }
+    [class~="h-70px-tablet"]{
+        height: 70px;
+    }
+    [class~="h-80px-tablet"]{
+        height: 80px;
+    }
+    [class~="h-90px-tablet"]{
+        height: 90px;
+    }
+    [class~="h-100px-tablet"]{
+        height: 100px;
+    }
+    [class~="h-110px-tablet"]{
+        height: 110px;
+    }
+    [class~="h-120px-tablet"]{
+        height: 120px;
+    }
+    [class~="h-130px-tablet"]{
+        height: 130px;
+    }
+    [class~="h-140px-tablet"]{
+        height: 140px;
+    }
+    [class~="h-150px-tablet"]{
+        height: 150px;
+    }
+    [class~="h-160px-tablet"]{
+        height: 160px;
+    }
+    [class~="h-170px-tablet"]{
+        height: 170px;
+    }
+    [class~="h-180px-tablet"]{
+        height: 180px;
+    }
+    [class~="h-190px-tablet"]{
+        height: 190px;
+    }
+    [class~="h-200px-tablet"]{
+        height: 200px;
+    }
+    [class~="h-220px-tablet"]{
+        height: 220px;
+    }
+    [class~="h-240px-tablet"]{
+        height: 240px;
+    }
+    [class~="h-260px-tablet"]{
+        height: 260px;
+    }
+    [class~="h-280px-tablet"]{
+        height: 280px;   
+    }
+    [class~="h-300px-tablet"]{
+        height: 300px;
+    }
+    [class~="h-320px-tablet"]{
+        height: 320px;
+    }
+    [class~="h-340px-tablet"]{
+        height: 340px;
+    }
+    [class~="h-360px-tablet"]{
+        height: 360px;
+    }
+    [class~="h-380px-tablet"]{
+        height: 380px;
+    }
+    [class~="h-400px-tablet"]{
+        height: 400px;
+    }
+    [class~="h-420px-tablet"]{
+        height: 420px;
+    }
+    [class~="h-440px-tablet"]{
+        height: 440px;
+    }
+    [class~="h-460px-tablet"]{
+        height: 460px;
+    }
+    [class~="h-480px-tablet"]{
+        height: 480px;
+    }
+    [class~="h-500px-tablet"]{
+        height: 500px;
+    }
+    [class~="h-520px-tablet"]{
+        height: 520px;
+    }
+    [class~="h-540px-tablet"]{
+        height: 540px;
+    }
+    [class~="h-560px-tablet"]{
+        height: 560px;
+    }
+    [class~="h-580px-tablet"]{
+        height: 580px;
+    }
+    [class~="h-600px-tablet"]{
+        height: 600px;
+    }
+    [class~="h-620px-tablet"]{
+        height: 620px;
+    }
+    [class~="h-640px-tablet"]{
+        height: 640px;
+    }
+    [class~="h-660px-tablet"]{
+        height: 660px;
+    }
+    [class~="h-680px-tablet"]{
+        height: 680px;
+    }
+    [class~="h-700px-tablet"]{
+        height: 700px;
+    }
+    
+    /* max-height */
+    
+    [class~="maxh-10px-tablet"]{
+        max-height: 10px;
+    }
+    [class~="maxh-20px-tablet"]{
+        max-height: 20px;
+    }
+    [class~="maxh-30px-tablet"]{
+        max-height: 30px;
+    }
+    [class~="maxh-40px-tablet"]{
+        max-height: 40px;
+    }
+    [class~="maxh-50px-tablet"]{
+        max-height: 50px;
+    }
+    [class~="maxh-60px-tablet"]{
+        max-height: 60px;
+    }
+    [class~="maxh-70px-tablet"]{
+        max-height: 70px;
+    }
+    [class~="maxh-80px-tablet"]{
+        max-height: 80px;
+    }
+    [class~="maxh-90px-tablet"]{
+        max-height: 90px;
+    }
+    [class~="maxh-100px-tablet"]{
+        max-height: 100px;
+    }
+    [class~="maxh-110px-tablet"]{
+        max-height: 110px;
+    }
+    [class~="maxh-120px-tablet"]{
+        max-height: 120px;
+    }
+    [class~="maxh-130px-tablet"]{
+        max-height: 130px;
+    }
+    [class~="maxh-140px-tablet"]{
+        max-height: 140px;
+    }
+    [class~="maxh-150px-tablet"]{
+        max-height: 150px;
+    }
+    [class~="maxh-160px-tablet"]{
+        max-height: 160px;
+    }
+    [class~="maxh-170px-tablet"]{
+        max-height: 170px;
+    }
+    [class~="maxh-180px-tablet"]{
+        max-height: 180px;
+    }
+    [class~="maxh-190px-tablet"]{
+        max-height: 190px;
+    }
+    [class~="maxh-200px-tablet"]{
+        max-height: 200px;
+    }
+    [class~="maxh-220px-tablet"]{
+        max-height: 220px;
+    }
+    [class~="maxh-240px-tablet"]{
+        max-height: 240px;
+    }
+    [class~="maxh-260px-tablet"]{
+        max-height: 260px;
+    }
+    [class~="maxh-280px-tablet"]{
+        max-height: 280px;   
+    }
+    [class~="maxh-300px-tablet"]{
+        max-height: 300px;
+    }
+    [class~="maxh-320px-tablet"]{
+        max-height: 320px;
+    }
+    [class~="maxh-340px-tablet"]{
+        max-height: 340px;
+    }
+    [class~="maxh-360px-tablet"]{
+        max-height: 360px;
+    }
+    [class~="maxh-380px-tablet"]{
+        max-height: 380px;
+    }
+    [class~="maxh-400px-tablet"]{
+        max-height: 400px;
+    }
+    [class~="maxh-420px-tablet"]{
+        max-height: 420px;
+    }
+    [class~="maxh-440px-tablet"]{
+        max-height: 440px;
+    }
+    [class~="maxh-460px-tablet"]{
+        max-height: 460px;
+    }
+    [class~="maxh-480px-tablet"]{
+        max-height: 480px;
+    }
+    [class~="maxh-500px-tablet"]{
+        max-height: 500px;
+    }
+    [class~="maxh-520px-tablet"]{
+        max-height: 520px;
+    }
+    [class~="maxh-540px-tablet"]{
+        max-height: 540px;
+    }
+    [class~="maxh-560px-tablet"]{
+        max-height: 560px;
+    }
+    [class~="maxh-580px-tablet"]{
+        max-height: 580px;
+    }
+    [class~="maxh-600px-tablet"]{
+        max-height: 600px;
+    }
+    [class~="maxh-620px-tablet"]{
+        max-height: 620px;
+    }
+    [class~="maxh-640px-tablet"]{
+        max-height: 640px;
+    }
+    [class~="maxh-660px-tablet"]{
+        max-height: 660px;
+    }
+    [class~="maxh-680px-tablet"]{
+        max-height: 680px;
+    }
+    [class~="maxh-700px-tablet"]{
+        max-height: 700px;
+    }
+    
+    /* min height*/
+    [class~="minh-10px-tablet"]{
+        min-height: 10px;
+    }
+    [class~="minh-20px-tablet"]{
+        min-height: 20px;
+    }
+    [class~="minh-30px-tablet"]{
+        min-height: 30px;
+    }
+    [class~="minh-40px-tablet"]{
+        min-height: 40px;
+    }
+    [class~="minh-50px-tablet"]{
+        min-height: 50px;
+    }
+    [class~="minh-60px-tablet"]{
+        min-height: 60px;
+    }
+    [class~="minh-70px-tablet"]{
+        min-height: 70px;
+    }
+    [class~="minh-80px-tablet"]{
+        min-height: 80px;
+    }
+    [class~="minh-90px-tablet"]{
+        min-height: 90px;
+    }
+    [class~="minh-100px-tablet"]{
+        min-height: 100px;
+    }
+    [class~="minh-110px-tablet"]{
+        min-height: 110px;
+    }
+    [class~="minh-120px-tablet"]{
+        min-height: 120px;
+    }
+    [class~="minh-130px-tablet"]{
+        min-height: 130px;
+    }
+    [class~="minh-140px-tablet"]{
+        min-height: 140px;
+    }
+    [class~="minh-150px-tablet"]{
+        min-height: 150px;
+    }
+    [class~="minh-160px-tablet"]{
+        min-height: 160px;
+    }
+    [class~="minh-170px-tablet"]{
+        min-height: 170px;
+    }
+    [class~="minh-180px-tablet"]{
+        min-height: 180px;
+    }
+    [class~="minh-190px-tablet"]{
+        min-height: 190px;
+    }
+    [class~="minh-200px-tablet"]{
+        min-height: 200px;
+    }
+    [class~="minh-220px-tablet"]{
+        min-height: 220px;
+    }
+    [class~="minh-240px-tablet"]{
+        min-height: 240px;
+    }
+    [class~="minh-260px-tablet"]{
+        min-height: 260px;
+    }
+    [class~="minh-280px-tablet"]{
+        min-height: 280px;   
+    }
+    [class~="minh-300px-tablet"]{
+        min-height: 300px;
+    }
+    [class~="minh-320px-tablet"]{
+        min-height: 320px;
+    }
+    [class~="minh-340px-tablet"]{
+        min-height: 340px;
+    }
+    [class~="minh-360px-tablet"]{
+        min-height: 360px;
+    }
+    [class~="minh-380px-tablet"]{
+        min-height: 380px;
+    }
+    [class~="minh-400px-tablet"]{
+        min-height: 400px;
+    }
+    [class~="minh-420px-tablet"]{
+        min-height: 420px;
+    }
+    [class~="minh-440px-tablet"]{
+        min-height: 440px;
+    }
+    [class~="minh-460px-tablet"]{
+        min-height: 460px;
+    }
+    [class~="minh-480px-tablet"]{
+        min-height: 480px;
+    }
+    [class~="minh-500px-tablet"]{
+        min-height: 500px;
+    }
+    [class~="minh-520px-tablet"]{
+        min-height: 520px;
+    }
+    [class~="minh-540px-tablet"]{
+        min-height: 540px;
+    }
+    [class~="minh-560px-tablet"]{
+        min-height: 560px;
+    }
+    [class~="minh-580px-tablet"]{
+        min-height: 580px;
+    }
+    [class~="minh-600px-tablet"]{
+        min-height: 600px;
+    }
+    [class~="minh-620px-tablet"]{
+        min-height: 620px;
+    }
+    [class~="minh-640px-tablet"]{
+        min-height: 640px;
+    }
+    [class~="minh-660px-tablet"]{
+        min-height: 660px;
+    }
+    [class~="minh-680px-tablet"]{
+        min-height: 680px;
+    }
+    [class~="minh-700px-tablet"]{
+        min-height: 700px;
+    }
+    
+    /*Margin and Padding*/
+    
+    /* paddings */
+    [class~="p-1-tablet"]{
+        padding: 5px;
+    }
+    [class~="p-2-tablet"]{
+        padding: 10px;
+    }
+    [class~="p-3-tablet"]{
+        padding: 15px;
+    }
+    [class~="p-4-tablet"]{
+        padding: 20px;
+    }
+    [class~="p-5-tablet"]{
+        padding: 25px;
+    }
+    [class~="p-6-tablet"]{
+        padding: 30px;
+    }
+    [class~="p-7-tablet"]{
+        padding: 35px;
+    }
+    [class~="p-8-tablet"]{
+        padding: 40px;
+    }
+    [class~="p-9-tablet"]{
+        padding: 45px;
+    }
+    [class~="p-10-tablet"]{
+        padding: 50px;
+    }
+    /* padding top */
+    [class~="p-top-1-tablet"]{
+        padding-top: 5px;
+    }
+    [class~="p-top-2-tablet"]{
+        padding-top: 10px;
+    }
+    [class~="p-top-3-tablet"]{
+        padding-top: 15px;
+    }
+    [class~="p-top-4-tablet"]{
+        padding-top: 20px;
+    }
+    [class~="p-top-5-tablet"]{
+        padding-top: 25px;
+    }
+    [class~="p-top-6-tablet"]{
+        padding-top: 30px;
+    }
+    [class~="p-top-7-tablet"]{
+        padding-top: 35px;
+    }
+    [class~="p-top-8-tablet"]{
+        padding-top: 40px;
+    }
+    [class~="p-top-9-tablet"]{
+        padding-top: 45px;
+    }
+    [class~="p-top-10-tablet"]{
+    padding-top: 50px;
+    }
+    /* padding bottom*/
+    [class~="p-bottom-1-tablet"]{
+        padding-bottom: 5px;
+    }
+    [class~="p-bottom-2-tablet"]{
+        padding-bottom: 10px;
+    }
+    [class~="p-bottom-3-tablet"]{
+        padding-bottom: 15px;
+    }
+    [class~="p-bottom-4-tablet"]{
+        padding-bottom: 20px;
+    }
+    [class~="p-bottom-5-tablet"]{
+        padding-bottom: 25px;
+    }
+    [class~="p-bottom-6-tablet"]{
+        padding-bottom: 30px;
+    }
+    [class~="p-bottom-7-tablet"]{
+        padding-bottom: 35px;
+    }
+    [class~="p-bottom-8-tablet"]{
+        padding-bottom: 40px;
+    }
+    [class~="p-bottom-9-tablet"]{
+        padding-bottom: 45px;
+    }
+    [class~="p-bottom-10-tablet"]{
+        padding-bottom: 50px;
+    }
+    
+    /* padding left*/
+    [class~="p-left-1-tablet"]{
+        padding-left: 5px;
+    }
+    [class~="p-left-2-tablet"]{
+        padding-left: 10px;
+    }
+    [class~="p-left-3-tablet"]{
+        padding-left: 15px;
+    }
+    [class~="p-left-4-tablet"]{
+        padding-left: 20px;
+    }
+    [class~="p-left-5-tablet"]{
+        padding-left: 25px;
+    }
+    [class~="p-left-6-tablet"]{
+        padding-left: 30px;
+    }
+    [class~="p-left-7-tablet"]{
+        padding-left: 35px;
+    }
+    [class~="p-left-8-tablet"]{
+        padding-left: 40px;
+    }
+    [class~="p-left-9-tablet"]{
+        padding-left: 45px;
+    }
+    [class~="p-left-10-tablet"]{
+        padding-left: 50px;
+    }
+    /* padding right*/
+    [class~="p-right-1-tablet"]{
+        padding-right: 5px;
+    }
+    [class~="p-right-2-tablet"]{
+        padding-right: 10px;
+    }
+    [class~="p-right-3-tablet"]{
+        padding-right: 15px;
+    }
+    [class~="p-right-4-tablet"]{
+        padding-right: 20px;
+    }
+    [class~="p-right-5-tablet"]{
+        padding-right: 25px;
+    }
+    [class~="p-right-6-tablet"]{
+        padding-right: 30px;
+    }
+    [class~="p-right-7"]{
+        padding-right: 35px;
+    }
+    [class~="p-right-8-tablet"]{
+        padding-right: 40px;
+    }
+    [class~="p-right-9-tablet"]{
+        padding-right: 45px;
+    }
+    [class~="p-right-10-tablet"]{
+        padding-right: 50px;
+    }
+    
+    /* margins */
+    
+    
+    [class~="m-1-tablet"]{
+        margin: 5px;
+    }
+    [class~="m-2-tablet"]{
+        margin: 10px;
+    }
+    [class~="m-3-tablet"]{
+        margin: 15px;
+    }
+    [class~="m-4-tablet"]{
+        margin: 20px;
+    }
+    [class~="m-5-tablet"]{
+        margin: 25px;
+    }
+    [class~="m-6-tablet"]{
+        margin: 30px;   
+    }
+    [class~="m-7-tablet"]{
+        margin: 35px;   
+    }
+    [class~="m-8-tablet"]{
+        margin: 40px;   
+    }
+    [class~="m-9-tablet"]{
+        margin: 45px;   
+    }
+    [class~="m-10-tablet"]{
+        margin: 50px;   
+    }
+    
+    /* margin-top */
+    [class~="m-top-1-tablet"]{
+        margin-top: 5px;
+    }
+    [class~="m-top-2-tablet"]{
+        margin-top: 10px;
+    }
+    [class~="m-top-3-tablet"]{
+        margin-top: 15px;
+    }
+    [class~="m-top-4-tablet"]{
+        margin-top: 20px;
+    }
+    [class~="m-top-5-tablet"]{
+        margin-top: 25px;
+    }
+    [class~="m-top-6-tablet"]{
+        margin-top: 30px;
+    }
+    [class~="m-top-7-tablet"]{
+        margin-top: 35px;
+    }
+    [class~="m-top-8-tablet"]{
+        margin-top: 40px;
+    }
+    [class~="m-top-9-tablet"]{
+        margin-top: 45px;
+    }
+    [class~="m-top-10-tablet"]{
+        margin-top: 50px;
+    }
+    /* margin-bottom */
+    [class~="m-bottom-1-tablet"]{
+        margin-bottom: 5px;
+    }
+    [class~="m-bottom-2-tablet"]{
+        margin-bottom: 10px;
+    }
+    [class~="m-bottom-3-tablet"]{
+        margin-bottom: 15px;
+    }
+    [class~="m-bottom-4-tablet"]{
+        margin-bottom: 20px;
+    }
+    [class~="m-bottom-5-tablet"]{
+        margin-bottom: 25px;
+    }
+    [class~="m-bottom-6-tablet"]{
+        margin-bottom: 30px;
+    }
+    [class~="m-bottom-7-tablet"]{
+        margin-bottom: 35px;
+    }
+    [class~="m-bottom-8-tablet"]{
+        margin-bottom: 40px;
+    }
+    [class~="m-bottom-9-tablet"]{
+        margin-bottom: 45px;
+    }
+    [class~="m-bottom-10-tablet"]{
+        margin-bottom: 50px;
+    }
+    /* margin-left */
+    [class~="m-left-1-tablet"]{
+        margin-left: 5px;
+    }
+    [class~="m-left-2-tablet"]{
+        margin-left: 10px;
+    }
+    [class~="m-left-3-tablet"]{
+        margin-left: 15px;
+    }
+    [class~="m-left-4-tablet"]{
+        margin-left: 20px;
+    }
+    [class~="m-left-5-tablet"]{
+        margin-left: 25px;
+    }
+    [class~="m-left-6-tablet"]{
+        margin-left: 30px;
+    }
+    [class~="m-left-7-tablet"]{
+        margin-left: 35px;
+    }
+    [class~="m-left-8-tablet"]{
+        margin-left: 40px;
+    }
+    [class~="m-left-9-tablet"]{
+        margin-left: 45px;
+    }
+    [class~="m-left-10-tablet"]{
+        margin-left: 50px;
+    }
+    /* margin-right*/
+    [class~="m-right-1-tablet"]{
+        margin-right: 5px;
+    }
+    [class~="m-right-2-tablet"]{
+        margin-right: 10px;
+    }
+    [class~="m-right-3-tablet"]{
+        margin-right: 15px;
+    }
+    [class~="m-right-4-tablet"]{
+        margin-right: 20px;
+    }
+    [class~="m-right-5-tablet"]{
+        margin-right: 25px;
+    }
+    [class~="m-right-6-tablet"]{
+        margin-right: 30px;
+    }
+    [class~="m-right-7-tablet"]{
+        margin-right: 35px;
+    }
+    [class~="m-right-8-tablet"]{
+        margin-right: 40px;
+    }
+    [class~="m-right-9-tablet"]{
+        margin-right: 45px;
+    }
+    [class~="m-right-10-tablet"]{
+        margin-right: 50px;
+    }
+    
+    /* box-stacking */
+    
+    /* container to hold a pile of boxes*/
+    .box-stacking-container-tablet{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    /* formatting for putting a box in a box pile.*/
+    [class~="in-pile-tablet"]{
+        display: block;
+        width: 100% !important;
+        position: absolute;
+        z-index: 1;
+    }
+    /* selecting the UpperMost layer*/
+    [class~="active-layer-tablet"]{
+        z-index: 2 !important;
+    }
+    
+    /*background formatting*/
+    [class~="bg-tablet"]{
+        background-clip: border-box;
+    }
+    [class~="bg-norepeat-tablet"]{
+        background-repeat: no-repeat;
+    }
+    [class~="bg-repeat-tablet"]{
+        background-repeat: repeat;
+    }
+    [class~="bg-repeatx-tablet"]{
+        background-repeat: repeat-x;
+    }
+    [class~="bg-repeaty-tablet"]{
+        background-repeat: repeat-y;
+    }
+    [class~="bg-contain-tablet"]{
+        background-size: contain;
+    }
+    [class~="bg-cover-tablet"]{
+        background-size: cover;
+    }
+    [class~="bg-auto-tablet"]{
+        background-size: auto;
+    }
+    [class~="bg-fill-tablet"]{
+        background-size: 100% 100%;
+    }
+    [class~="bg-fill-90-tablet"]{
+        background-size: 90% 90%;
+    }
+    [class~="bg-fill-80-tablet"]{
+        background-size: 80% 80%;
+    }
+    [class~="bg-fill-70-tablet"]{
+        background-size: 70% 70%;
+    }
+    [class~="bg-fill-60-tablet"]{
+        background-size: 60% 60%;
+    }
+    [class~="bg-pos-center-tablet"]{
+        background-position: center center;
+    }
+    [class~="bg-pos-left-center-tablet"]{
+        background-position: left center;
+    }
+    [class~="bg-pos-right-center-tablet"]{
+        background-position: right center;
+    }
+    [class~="bg-pos-top-left-tablet"]{
+        background-position: top left;
+    }
+    [class~="bg-pos-top-right-tablet"]{
+        background-position: top right;
+    }
+    [class~="bg-pos-bottom-left-tablet"]{
+        background-position: bottom left;
+    }
+    [class~="bg-pos-bottom-right-tablet"]{
+        background-position: bottom right;
+    }
+    [class~="bg-fixed-tablet"]{
+        background-attachment: fixed;
+    }
+    
+    /* pseudo background, background changing animation */
+    
+    /* pseudo-animation-container */
+    [class~="pseudo-animation-container-tablet"]{
+        position: relative;
+        display: block;
+    }
+    /* text and other fixed asset are kept in the static top frame which has no background. */
+    [class~="animation-top-layer-tablet"]{
+        position: absolute;
+        z-index: 3;
+    }
+    /* image containers */
+    [class~="animation-layer-container-tablet"]{
+        position: absolute;
+        width: 100%; 
+        opacity: 0;  
+    }
+    [class~="animation-layer-container-tablet"] img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* periodic changing of the content of animation container with the exception of the top layer. template*/
+    .first-in{
+        -webkit-animation-name: firstIn ;
+        animation-name: firstIn;
+        -webkit-animation-duration: 10s;
+        animation-duration: 10s;
+        -webkit-animation-timing-function: ease;
+        animation-timing-function: ease;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+        -webkit-animation-iteration-count: 120;
+        animation-iteration-count: 120;
+        -webkit-animation-fill-mode: none;
+        animation-fill-mode: none;
+    }
+    .second-in{
+        -webkit-animation-name: secondIn ;
+        animation-name: secondIn;
+        -webkit-animation-duration: 10s;
+        animation-duration: 10s;
+        -webkit-animation-timing-function: ease;
+        animation-timing-function: ease;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+        -webkit-animation-iteration-count: 120;
+        animation-iteration-count: 120;
+        -webkit-animation-fill-mode: none;
+        animation-fill-mode: none;
+    }
+    @keyframes firstIn{
+    0%{
+        opacity: 0;
+    }
+    5%{
+        opacity: 1;
+    }
+    49%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+    }
+    @keyframes secondIn{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    55%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    }
+    /* border , visibility for background , centering content*/
+    
+    /* visibility */
+    [class~="border-mini-tablet"]{
+        border: 1px solid gray;
+    }
+    [class~="border-midi-tablet"]{
+        border: 2px solid gray;
+    }
+    [class~="border-maxi-tablet"]{
+        border: 3px solid;
+    }
+    [class~="border-rounded-mini-tablet"]{
+        border-radius: 5px;
+    }
+    [class~="border-rounded-midi-tablet"]{
+        border-radius: 10px;
+    }
+    [class~="border-rounded-maxi-tablet"]{
+        border-radius: 15px;
+    }
+    [class~="visible-red-tablet"]{
+        background-color: rgb(255, 218, 218);
+    }
+    [class~="visible-gray-tablet"]{
+        background-color: rgb(146, 146, 146);   
+    }
+    [class~="visible-blue-tablet"]{
+        background-color: rgb(182, 182, 255);
+    }
+    [class~="visible-teal-tablet"]{
+        background-color: rgb(195, 255, 255);
+    }
+    /* optional display and hiding*/
+    [class~="display-tablet"]{
+        display: block;
+    }
+    [class~="hide-tablet"]{
+        display: none;
+    }
+    /* centering */
+    [class~="center-tablet"]{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    [class~="fixed-top-tablet"]{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+    [class~="fixed-bottom-tablet"]{
+        position: fixed;
+        bottom: 0px;
+        left: 0psx;
+    }
+}

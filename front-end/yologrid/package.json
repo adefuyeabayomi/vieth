@@ -1,0 +1,16 @@
+{
+  "name": "yologrid.css",
+  "version": "1.0.0",
+  "description": "A css flexbox based grid framework for building complex layouts quickly. It's easy to use and learn as it focuses only on grid layout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CSS",
+    "grid",
+    "framework."
+  ],
+  "author": "Adefuye Abayomi Lawrian.",
+  "license": "MIT"
+}
