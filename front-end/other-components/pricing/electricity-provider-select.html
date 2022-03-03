@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>title</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="pricing.css">
+        <link type="text/css" rel="stylesheet" href="../../yologrid/yologrid.css">
+        <meta name="viewport" content="initial-scale=1,shrink-to-fit=no">
+    </head>
+    <body>
+        <!--main-->
+        <div class="electricity_distributor_select">
+            <div>
+                <p class="Decision_header">Choose your electricity distributor :</p>
+            </div>
+            <form>
+                <select class="pricing_select" v-model="provider" name="electricity_distributor">
+                    <option value="ikejaElectric">Ikeja Electric Distribution Company</option>
+                    <option value="generalElectric">General Electric Distribution company</option>
+                </select>
+            </form> 
+        <div>
+            <two-cols-table v-bind:data-object="providerPricesDP.electricity[provider]"></two-cols-table>
+        </div>
+        </div>
+       
+        <!--main-->
+    </body>
+</html>

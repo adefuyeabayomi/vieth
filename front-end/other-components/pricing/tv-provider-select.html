@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>title</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="pricing.css">
+        <link type="text/css" rel="stylesheet" href="../../yologrid/yologrid.css">
+        <meta name="viewport" content="initial-scale=1,shrink-to-fit=no">
+    </head>
+    <body>
+        <!--main-->
+        <div class="tv_provider_select">
+            <div>
+                <p class="Decision_header">Choose your tv service provider :</p>
+            </div>
+            <form>
+                <select class="pricing_select" v-model="provider" name="tv_service_provider">
+                    <option value="dstv">DSTV </option>
+                    <option value="gotv">GOTV</option>
+                    <option value="startimes">STARTIMES</option>
+                </select>
+            </form>
+       <div>
+            <three-cols-table v-bind:data-object="providerPricesDP.tv[provider]"></three-cols-table>
+        </div>
+        </div>
+     
+        <!--main-->
+    </body>
+</html>

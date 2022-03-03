@@ -1,0 +1,90 @@
+#pricing_section{
+    padding-top: 55px;
+    padding-left: 30px;
+    padding-right:15px;
+}
+.choose_service_form label{
+    display: inline;
+}
+.prices_header{
+    text-align: center;
+    font-weight: 700;
+    padding: 20px 0px 20px 0px;
+    font-family: "segoe ui";
+letter-spacing: 3px;
+font-size: 130%;
+color: #ff4902;
+}
+.Decision_header{
+    font-size: 120%;
+font-weight: 600;
+padding-bottom: 0px;
+letter-spacing: 2px;
+}
+#pricing_section form {
+    margin-top: 0px;
+}
+#pricing_section label{
+    font-size: 100%;
+letter-spacing: 2px;
+}
+#pricing_section form div{
+    padding: 0px 0px 8px 0px;
+}
+label{
+    font-size: 90%;
+    letter-spacing: 0.5px;
+}
+.data_provider_select,.tv_provider_select,.electricity_distributor_select,.recharge_card_select{
+    padding: 0px;
+    margin-top: 20px;
+}
+table{
+    font-family: "segoe ui";
+    padding: 0px;
+    margin-top: 10px !important;
+   
+}
+tr:first-child td{
+    border : 0px solid;
+
+}
+tr:first-child{
+    border-bottom: 2px solid gray;
+    font-weight: 600;
+    padding: 10px 0px 10px 0px;
+}
+td{
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    border : 1px solid #fcbf8c;
+    width: 150px;
+    border-radius: 0px;
+    color: #292929;
+}
+.pricing_select{
+    width: 170px;
+    height: 30px;
+    border: 2px solid #ffe1c3;
+    border-radius: 5px;
+    background-color: #f7b273;
+    color: #373535;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.pricing_select option{
+    letter-spacing: 2px;
+    font-size:80%;
+    font-weight: 600;
+    color : #73441b;
+}
+@media (max-width: 350px){
+    td{
+        max-width: 30%;
+    }
+}
+@media (min-width: 900px){
+    .prices_header{
+        font-size : 120%;
+    }
+}

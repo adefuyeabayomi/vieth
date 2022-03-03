@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>title</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="">
+        <meta name="viewport" content="initial-scale=1,shrink-to-fit=no">
+    </head>
+    <body>
+        <!--main-->
+        <div class="recharge_card_select">
+            <div>
+                <p class="Decision_header">Service Provider : Vieth.online NG</p>
+            </div>
+            <div>
+                <p class="Decision_header">Network :</p>
+            </div>
+            <form>
+                <select class="pricing_select" v-model="network" name="data_provider">
+                    <option value="mtn">Mtn_NG</option>
+                    <option value="airtel">Airtel_NG</option>
+                    <option value="glo">Glo_NG</option>
+                    <option value="ninemobile">9mobile_NG</option>
+                </select>
+            </form>
+            <div>
+            <two-cols-table v-bind:data-object="providerPricesDP.network[network]"></two-cols-table>
+        </div>
+        </div>
+        <!--main-->
+    </body>
+</html>
